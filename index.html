@@ -2,8 +2,42 @@
 <html>
     <head>
         <title>Potato</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script>
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
         
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        function dropdown() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        function filterSearch() {
+            var input = document.getElementById("myInput"),
+            filter = input.value.toUpperCase(),
+            div = document.getElementById("myDropdown"),
+            a = div.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                if (a[i].innerHTML.toUpperCase().indexOf(filter) >= 0) {
+                    a[i].style.display = "";
+                    document.getElementById("myDropdown").style.display = "block";
+                    if (input.value == "") {
+                        document.getElementById("myDropdown").style.display = "none";
+                    }
+                }
+                else {
+                    a[i].style.display = "none";
+                }
+            }
+        }
         </script>
         <style>
             * {
@@ -13,7 +47,7 @@
             }
             h1 {
                 font-size:350%;
-                text-shadow: 0 1px 0 #ccc,
+                text-shadow:0 1px 0 #ccc,
                 0 2px 0 #c9c9c9,
                 0 3px 0 #bbb,
                 0 4px 0 #b9b9b9,
@@ -26,6 +60,48 @@
                 0 10px 10px rgba(0,0,0,.2),
                 0 20px 20px rgba(0,0,0,.15);
             }
+            .potato {
+                background: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGBcVGBgVGBcXGhgXGBUXFxcXFxcYHSggGholHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAACAwABBAUG/8QAMRAAAgIBAwMDAwMEAgMBAAAAAAECESEDMUESUWEEcYGRofATscEFItHxFTIUUmJC/8QAGgEAAwEBAQEAAAAAAAAAAAAAAAECAwQFBv/EACIRAQEBAAMBAAMAAwEBAAAAAAABEQISITEDQVEUYXETBP/aAAwDAQACEQMRAD8A9rDBerq1srAiEkfIdnurcgXeA0sAT2F2wCkrF/oregYajeEth0WK8zwEdNBqK8BsW3n/ACT2A6CjO/ctgqOB9xi5PgRqSGTZj1I5tS+A7nI0wngjl2yZdXSvmhUdBppputq9+WVsPGues1xgp6gtyexFFLcjtZTwys8fIca4QtVRei/Pt/gvfA1/pKsszerVYWF9A1jN/ApzvdXnsTuFjnx9Ne7td6z8D4LFZr7mrUjizNIf/oeJpzlGSzj3+hqWtLhW/cwT9M5NO8fyavTxa4+WF576MdDT1Gt9h0dbO5nhFb0wJxjaHx5pvGOjDVaOj6f17W+UcKMq5DWo9vudn4f/AKOXH5WH5Pwzl9el/wCQj2IeY635+pR1f5/5GH+JwZtOnzgMTpS8DVI8Ts7cXJ9gF3qhsbKaXKJvI4GKVFSlXwEpIDVXJFpr/WVLuHGabrkxqFvOF2NUYpdw08NU1tyW1WdwVBbsN+waWA1H2Ex0h8khTaSHPpxn/TfVvgLV08AyfKD/AFcW9jSmBR2Bn2KhrJvCGOf5QGVGLTedw4x+CamldNjprGCu36IH6S35Ljqd8V+cDdOOBcIpMAPUTaxixa9OuWalXwF0kWfwtZo6dLGc/QLS917DNSF80SOmrF9PTIxIpeNvzAaXYFxyOIX0IvTVYoDVd7VfkvTjK7vBU50jb8EJ1Fl96WVy9LI5IBLyGjmWkrrG/BIyezyy2DCDTu8eRCJPSzdl9OMEnqeAPSzk2+rgU2mdoaSQU4hIBzoZDAV8g9XV5RVjwwaupwIV7cByh0ptvBPTO1fkq+Q4CS4KWMUN19K1d1QOir34w/8AJfH0waemlslnkOUc9hn4vYDWjfDK656SlO3SaLg80K09Cle/yHGL3+RTMM2NXuRNPjYS44trcGOk5PlUHYY1Jre8UTX9R0R6qvwK1dN4Sax3DU08dg93SxPTa3WrarwaH4M0o07z8chaeo1dtVxgnN9GNSbGpCdMco9imdDRUZO8kh5sDVTWY8vIsB9ogj9Tw/oQodWfCCTKaKnfBgocs4A1ZUT9VBvYky4w/tqw1gmmgpKsjkCNvgRJOSGy1V3Li8Dsw4X1VjgrT71uVN3gdFYL+Bm1v7ou1v8AsZv6euhuLypO0dFqxS00vfgvjNmBazhoLozZNN9zRFp+25VhaVGF5sz6+o8JP3xwdD9O1QM/TRdY2HdzIU5RnhoOMe6Fzjlt7GvVT6auvJm/T8t+/wC5PLJPFcayz1N1VpbV9hvp9FN2rvzZoiqvBcbt/b3J4zadoZIz+o9M918rx4NsF98gvTazZfwtDpQqKXZck1tO1l849wtXTTWW8/uMUbIwtDpXhMZCQnUWf3LhH4KyFY1RdgsDSb6vGw9ZF1RfC+tEG9JAz/RbHPsz6/qlHkOupeDE/RpybfPHkznW/WkdDTlaGUZ9ONKl9BsJkGPBTV2rCbEwzK1t+45AuPp1fsF0hp1gjoqQaSkluHAVr6sVv8KhP9M9RKbfUqy6VVsa9fDatXUpblpc/wCxs9K6tIKGjTYcZnxPYlPbGAvSy/uaoPU0riX6aKcPsVPSt8PigmitFKt9hsFfsaTiytZZw5MnRk6U428iZxom8YvjzZY6beeP5GR0nds0Q07w9sDIabt9uB8eEF/IXGHgpRGaqr/ZT8UPqnQpK6F66/8AUc0SKW4dZ+hrPDTa+e5WnJ2aNRYx3Bcaw8hiu2lpYfcnUy3F34+4aTIvh6qvLIX1ePuQWlrA3+wEYEvgjnk5bWg1Ek/uBOVC+v7hxw8O07rLRc8R88UKhIPkueDBRxu+wzTz+6M6lbwtvvk1aTwVxuisHq/Sycm0298cGr0Pp3FLq4VD9ODu/kd+ma274m0UQ7W3IH6SXvwE5V7jnjK+pXAqCqbX/wCS9Vyb7Z+w6O1/UqfR8gqWyJCTXvghLfuXqEmynktxW5aWRZRqorPktyoje9e1lrTuLT3NOv8AC/6z6fqYzb6eMe4yEW/Bh/p+jJTz/wBd8HWcM4eCZLfVc7ONyM84E6WljatjV0YoWoldLETmSm2DJdw5urSLlSV0TmrlLjRk9f6mcZWlj9zWmnkqSUsP5Ivqp9cn/mv/AJX1Ia/+N0exCOq94/xzo63Ib1EcJ6s4x73/AJOh6WLw8fz9DPl+HJq295BnHJSiN0kYTxQYZ275HrwKnp9uRsY7Iv7APTSzQUVjsgNJZsb122uxXFNMgkMhNCojY4/nubM+RpNWNe6JB38Fas8WX5jL3VJc9tw46ioCOpeURrP3HJ/Dz+jaeK7kcgIbu2yNvnbhjwYYkXJidPUbp00vP89hvp4bvv3/AIHxn6TZiJDNs8fmQY75KlqbrnG3kuFfWiGr4FzkrwgZSS3Dgyt3xGZ6Ny4q+4pt8bB8+B0dNcFyWlsjFqpJZ/ELVv8APuaNdK8v6i23x8Gd4+teN8KUk9t7+5NTcN6apPbmu4WtG42t9ybx8VsL6F+Igrq8EM9/0vrXmP8AxV8itKTT32OooAw0I5tL38nLw575WwtDUtDvTzu+5kT6VQUZvDvcmcdNtcL+CU7/ADP5QOlqXn4HSY8whKVYDjkXCVuvA50ldlcZU1TZcJXtQrU1JcV88A6jayvl7F7Jc0sbequ7JHUvjBNOae2KXIvU1L2fybdc+s8NhLhE1JtZK6bQuM7dNbDgwal/dbT7+5yvX/1iUZSj0YTw73/wdrS1Ul79+Dg6noJfqUsxfI/M+nx+u36H1PXBOqHRkvptQj02gowUbeCtObbpLex9rJGd4y7jRJ7PYuPn5Zm19R2kP69uBzkV43DIxzsNav4FJ48k6vuVOUiLKJPOWHGT4Ep0E9ThDnLCscb+oa0nJ3itvJ04dXSr3oOdPjKBk/qZZlt1teWyTC3bfsFN267LgnwJuh6JNF+lHuQV+uv/AGITq8rnWIlPKSG0LWnlM4WsK1fTtu0adHTXTW5aG3wXLbMGpFJBoRqTph/7KkoNTp2DDVT91uZpalNPnPtXcPTTu8d1RXwY0Sm8VVMvpq2n8PJWm/sXOWLD/kBiCXbZiYzyglN7/Bcv7pWNC1VVk/UyJT8eSlJ5x/oO2/E9WpMCkm3yVFk1U3yPU4Xra3S0r3NGlDLd/IlQW7V4DjNL6bDh354Y9HN/fwMpL/ImOpfgO7wVGdl/Y/nyK/Ut90Ft+WA69h05DevFIFP6+BcKQfWT2HUb1c9tvkmo1uLkk0++AepPcV5eicTJyMmtLt23L1JNcmabtk8uTXhxF1L8RQnofchl3v8AGuQEXYvUbvH+hsY0U5q6FJjNegnWQ1O1YrrYEJv47sDwxtFauvTSp9sCJ6nSrG8FTjb8A9WWMDILG5yYa7Uv7t/PHijp6csKyuU6/QvSnTHTmuTH6nwLg9kzLbFY2yedxC9fUqaxtfkapeKJKCdWVeUl9DRGWLTCUeb/ADkzuWa/MB/+Uu7CZpNCkHGRljqXlJht+R7YWD6qebCjV9X7i89/zsXeclds9GChqvnuaOvkzBJlTnk9TeOmRm7r7gakuxU/n4JpzWVyiLbyn0ZiQfIUbzkl8ASfb6DnkH0YMI3sQkaDj92gU2n5ZgTa/Mm9oRqrgXL2q40H6y/KIXZAzkrxnTAk6wR7i3NXXIZWcCo22NcdwY6WbQxip6R0W7fAcdLJlnpSUrW1nQj3LnnwUroXNWWw0BqrDJpwuc+V8gtW1RinN1jOaaX0dI2eiil/b25ZPLhipW2Mc34ouKK0nv8AYKEXyGaSdFkcUMZVBRpen+UOiu5SiFBE3aNXYuTbdV8jYsF5/kr6FdIf6r5Ka7FOPyiiNg0woKhEWNTJn0rFSlTwgYTCa5MnqtdxdJFSGfJWXZayrATDDPFaq97fYbENBIncc7o1OxDf1eWQrsOzjX+MqqyRJ5d3dBNKiyHpvsG0KhhFqZngVGecjnMUgZzaWCuMDQwJMStZvigpTH1C4QS2FzVStfUPqBlq7prHciynD4z7BqRkUfIyMkLDaFIikJlMVp663+uQzQ2rUDU/JlhIqWtXli6/wNkplKYuMy2xQHxRHIVCRbGFznsXKeRcmQuTzQetSgJVdoUmW5Pgeb4R0ZXwVGIvqaSvIyE7FeP7MasOwbCQqmp0EK6kQnQ5kYklECGpkbI6MQVBElHlbl5CiybPT0r0/VX9yJrLKd1Q9GCWq+vpcfoXOI0xq3a78hzYD1PtgGU7xdDw9H1YB6VVAxnl/wAlr4FeJ6keyD6+BcvvyHPObH1g1dYdsXHQTXbnBJ/ZdgtJJXX0Isv6BmnopcsrWVtfuM05bBtYdNfJPXT0qMqdX9R8ZibWMILTnignD9jTYtBqXYT0phQJwHvcGaTFak3wSEpWse4daDLKSz4DopxeK+RyWAxFJZv4CRKI9A9GV7/cNy+BawC5lEZ1EFdRB+GwxQTl4KUQqOixlohYuXqFfPYZuIDFyZc7eVXyL1XWXwVgZ9V5+/uVXYOGpF82N6PoBserKnm85Jo6n3NM9LwKwrwPdI1MXfb7guTC6u4pxPQR/Ow6M/gWS3sPlxEp8ZAzkkrv67CZSruXLRU1m/Bn0PT9KS7/AMjdNxzlvmjNHQS7tjoSrYqjRLVS3dIvT114+oE4RluiaXpoxdpZMrIetbVk0UylqEazf8v9iBpjZTslka7jwauLYVgOXYqw66A/rpYbVj4rkRHQjwl3HIqcf4VouvwQnUQfUuzFEtEIb8kREEiEJUsTP/r8EIEDkem/7r3OuyECgMxff3LIHH6CY/8AUDghC6Rb3/Oxp0tmQggU9wtLchAM6G5c9iEJpmLYhCGdNXY1RIQmnRoDUIQKQZbA8EIVAbpBLdlkK4/CCQhCkv/Z") no-repeat;
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+            }
+            .bluefire {
+                background: url("https://media2.giphy.com/media/3o7buhykcIp61x20cU/giphy.gif") no-repeat;
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+            }
+            .head {
+                font-size:250%;
+            }
+            .head2 {
+                font-size:200%;
+            }
+            .head2 {
+                font-size:150%;
+            }
+            .td {
+                text-shadow:0 1px 0 #ccc,
+                0 2px 0 #c9c9c9,
+                0 3px 0 #bbb,
+                0 4px 0 #b9b9b9,
+                0 5px 0 #aaa,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15);
+            }
+            #tml {
+                width:75%;
+                padding:15;
+                background:red;
+            }
+            input {
+                background:transparent;
+                border-bottom:5px solid #333;
+            }
     		body {
     			
     		}
@@ -37,6 +113,57 @@
                 position:absolute;
                 background:linear-gradient(to bottom right, #333, #555, #c0c0c0);
             }
+            .dropbtn {
+                background-color:#4CAF50;
+                color:white;
+                padding:16px;
+                font-size:16px;
+                border:none;
+                cursor:pointer;
+            }
+            
+            .dropbtn:hover, .dropbtn:focus {
+                background-color:#3e8e41;
+            }
+            
+            #myInput {
+                border-box:ox-sizing;
+                background-image:url('searchicon.png');
+                background-position:14px 12px;
+                background-repeat:no-repeat;
+                font-size:16px;
+                padding:14px 20px 12px 45px;
+                border:none;
+                border-bottom:1px solid #ddd;
+            }
+            
+            #myInput:focus {outline:3px solid #ddd;}
+            
+            .dropdown {
+                position:relative;
+                display:inline-block;
+            }
+            
+            .dropdown-content {
+                display:none;
+                position:absolute;
+                background-color:#f6f6f6;
+                min-width:230px;
+                overflow:auto;
+                border:1px solid #ddd;
+                z-index:1;
+            }
+            
+            .dropdown-content a {
+                color:black;
+                padding:12px 16px;
+                text-decoration:none;
+                display:block;
+            }
+            
+            .dropdown a:hover {background-color:#ddd;}
+            
+            .show {display:block;}
     		@media screen and (max-width:600px) { /* <=#=v=#=> CSS Styles for Phones <=#=v=#=> */
     		    h1 {
     		        font-size:250%;
@@ -45,8 +172,29 @@
         </style>
     </head>
     <body>
-        <div class="screen">
-            <h1>Lemuel De Los Santos</h1>
+        <div class="screen"><!--
+            <div class="dropdown">
+                <button onclick="dropdown()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#about">About</a>
+                    <a href="#base">Base</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#custom">Custom</a>
+                    <a href="#support">Support</a>
+                    <a href="#tools">Tools</a>
+              </div>
+            </div>
+            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterSearch()">
+            <hr> -->
+            <b class="head2">Hello, I am</b><br>
+            <strong class="td head">Lemuel De Los Santos.</strong><br>
+            <b class="head3 potato">(aka)Potato</b><br>
+            <b class="head2">I know quite a bit when it comes to code, seeing as I created this website. Sometimes I try things that <b style="color:red">push my limits</b>. But they end to be a total faliure, or an <b class="bluefire">epic success</b>.I want to hear your opinoin on this, is it one or the other.</b><br>
+            <strong class="td head2">SO...</strong><br><br>
+            <button id="tml">
+                <strong class="head3">TEST MY LIMITS?</strong>
+            </button>
         </div>
     </body>
 </html>
