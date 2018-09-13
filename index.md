@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Righteous" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+</head>
+<body>
+    <div class="backg">
+        <div class="front">
+            <img src="https://i.imgur.com/fI3XJ4f.png" id="board">
+            <h1 id="frnt">ICECREAM SHOP</h1>
+            <button type="button" id="door">TAP HERE TO ENTER</button>
+        </div>
+        <div class="shop">
+            <div class="menu">
+                <input  type="button" id="scoops" value="Flavours">
+                <input type="button" id="toppings" value="Toppings"><br>
+                <input type="button" id="sprinkles" value="Sprinkles">
+                <input type="button" id="fruits" value="Fruits">
+                
+            </div>
 
-You can use the [editor on GitHub](https://github.com/lemueld6200/lemueld6200.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+            <div class="icecream">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+                <div class="text">Your Icecream is Ready!!</div>
+                
+                <div class="main">
+                    
+                    <img src="https://i.imgur.com/dIayddm.png" height="300px" width="270px" id="cone">
+                    <div id="scoop1">
+                        <div id="f1">
+                            <div class="topping">
+                                <img class="sprinkle" src="" >
+                            </div>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lemueld6200/lemueld6200.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+                        </div>
+                        <div id="f2"></div>
+                        <div id="f3"></div>
+                        <div id="f4"></div>
+                        <div id="f5"></div>
+                        <img class="fruit" src="https://i.imgur.com/jzaBFEX.png"  width="50px" height="55px">
+                        
+                    </div>
+                </div>
+                <button type="button" id="done">DONE</button>
+                 <a href="https://youtu.be/V5cZ3SaUDE4">My Youtube Channel</a>
+            </div>
+           
+        </div>
+    </div>
+    
+</body>
+</html>
