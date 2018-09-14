@@ -75,5 +75,5 @@ li a:hover:not(.active) {
 	height:150px;
 }
 .media:hover {
-	
+	animation:expand 1s 1;
 }
