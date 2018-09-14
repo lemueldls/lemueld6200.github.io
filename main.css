@@ -1,18 +1,10 @@
 @keyframes expand {
-	50% {
-		width:100px;
-		height:100px
-	}
 	100% {
 		width:200px;
 		height:200px
 	}
 }
 @keyframes retract {
-	50% {
-		width:75px;
-		height:75px
-	}
 	100% {
 		width:150px;
 		height:150px
