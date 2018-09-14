@@ -77,10 +77,12 @@ li a:hover:not(.active) {
 }
 
 .media {
+	animation:retract 1s 1;
 	width:150px;
 	height:150px;
-	animation:retract 1s 1;
 }
 .media:hover {
 	animation:expand 1s 1;
+	width:200px;
+	height:200px;
 }
