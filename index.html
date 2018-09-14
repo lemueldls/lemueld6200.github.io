@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Potato</title>
+        <title>Lemuel De Los Santos</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script>
+        var mX, my;
+        window.onmousemove = function(mouse) {
+            mX = mouse.clientX;
+            mY = mouse.clientY;
+        }
+        function epic() {
+            document.getElementById("Main").style.display = "none";
+            var mTrans = document.createElement("img");
+            mTrans.style.position = "absolute"
+            mTrans.style.width = "100px";
+            mTrans.style.height = "100px";
+            var mFollow = setInterval(function() {
+                mTrans.style.top = mY - 50 + "px";
+                mTrans.style.left = mX - 50 + "px";
+                setTimeout(function() {
+                    mTrans.style.display = "none"
+                    clearInterval(mFollow);
+                    
+                }, 500)
+            }, 1);
+            mTrans.src = "https://i.pinimg.com/originals/f3/df/ea/f3dfea21209548190f724c6e8d10c52c.gif";
+            document.body.appendChild(mTrans)
+        }
+        
         window.onclick = function(event) {
             if (!event.target.matches('.dropbtn')) {
         
@@ -65,6 +89,49 @@
                -webkit-background-clip: text;
                -webkit-text-fill-color: transparent;
             }
+            .ld-l {
+                opacity:0;animation: ld-in 3s 0.0s ease infinite;
+                
+            }
+            .ld-o {
+                opacity:0;animation: ld-in 3s 0.1s ease infinite;
+                
+            }
+            .ld-a {
+                opacity:0;animation: ld-in 3s 0.2s ease infinite;
+                
+            }
+            .ld-d {
+                opacity:0;animation: ld-in 3s 0.3s ease infinite;
+                
+            }
+            .ld-i {
+                opacity:0;animation: ld-in 3s 0.4s ease infinite;
+                
+            }
+            .ld-n {
+                opacity:0;animation: ld-in 3s 0.5s ease infinite;
+                
+            }
+            .ld-g {
+                opacity:0;animation: ld-in 3s 0.6s ease infinite;
+                
+            }
+            
+            @keyframes ld-in {
+              0% {
+                  opacity:0;transform:scale(0);
+                  
+              }
+              30% {
+                  opacity:1;transform:scale(1);
+                  
+              }
+              100% {
+                  opacity:1;transform:scale(1);
+                  
+              }
+            }
             .bluefire {
                 background: url("https://media2.giphy.com/media/3o7buhykcIp61x20cU/giphy.gif") no-repeat;
                -webkit-background-clip: text;
@@ -96,7 +163,8 @@
             #tml {
                 width:75%;
                 padding:15;
-                background:red;
+                border:thin solid #c0c0c0;
+                background:url("https://thumbs.gfycat.com/JoyousGrouchyCockroach-small.gif");
             }
             input {
                 background:transparent;
@@ -108,10 +176,20 @@
             .screen {
                 top:0;
                 left:0;
-                width:100% !important;
+                width:100%;
                 min-height:100%;
                 position:absolute;
+            }
+            #Main {
                 background:linear-gradient(to bottom right, #333, #555, #c0c0c0);
+            }
+            #loading {
+                display:none;
+                background:black;
+                overflow:hidden;
+            }
+            #loading:target {
+                display:block;
             }
             .dropbtn {
                 background-color:#4CAF50;
@@ -172,7 +250,7 @@
         </style>
     </head>
     <body>
-        <div class="screen"><!--
+        <div class="screen" id="Main"><!--
             <div class="dropdown">
                 <button onclick="dropdown()" class="dropbtn">Dropdown</button>
                 <div id="myDropdown" class="dropdown-content">
@@ -193,12 +271,26 @@
             <b class="head3 potato">(aka)Potato</b><br>
             <b class="head2">I know quite a bit when it comes to code,<br>seeing as I created this website. Sometimes<br>I try things that <b style="color:red">push my limits</b>.<br>But they end to be a total faliure,<br>or an <b class="bluefire">epic success</b>.<br>I want to hear your opinoin on this,<br>is it one or the other.</b><br>
             <strong class="td head2">SO...</strong><br><br>
-            <button id="tml">
-                <br>
-                <strong class="head3">SHALL WE TEST MY LIMITS?</strong>
-                <br><br>
-            </button>
+            <a href="#loading">
+                <button id="tml" onclick="epic(event)">
+                    <br>
+                    <strong class="head3">SHALL WE TEST MY LIMITS?</strong>
+                    <br><br>
+                </button>
+            </a>
             <br><br>
+        </div>
+        <div class="screen" id="loading">
+            <img style="z-index:2;opacity:0.5" class="screen" src="https://media1.giphy.com/media/3o6vXTpomeZEyxufGU/giphy-downsized.gif">
+            <h1 style="position:relative;z-index:1" class="3d potato head1">
+                <b class="ld-l">L</b>
+                <b class="ld-o">O</b>
+                <b class="ld-a">A</b>
+                <b class="ld-d">D</b>
+                <b class="ld-i">I</b>
+                <b class="ld-n">N</b>
+                <b class="ld-g">G</b>
+            </h1>
         </div>
     </body>
 </html>
