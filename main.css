@@ -4,6 +4,12 @@
 		height:200px
 	}
 }
+@keyframes retract {
+	50% {
+		width:150px;
+		height:150px
+	}
+}
 * {
 	color:whitesmoke;
 	text-align:center;
@@ -73,6 +79,7 @@ li a:hover:not(.active) {
 .media {
 	width:150px;
 	height:150px;
+	animation:retract 1s 1;
 }
 .media:hover {
 	animation:expand 1s 1;
