@@ -26,8 +26,6 @@
 }
 body {
 	background-color:#2f2f2f;
-	background-repeat:space repeat-y;
-	background-image:url("https://t5.rbxcdn.com/a40183d08aeb6889e14827b404a5c5a4");
 }
 .screen {
 	top:0;
@@ -40,6 +38,7 @@ menu {
 	top:0;
 	left:0;
 	position:absolute;
+	background-image:url("https://t5.rbxcdn.com/a40183d08aeb6889e14827b404a5c5a4");
 }
 #home {
 	
