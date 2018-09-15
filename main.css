@@ -45,7 +45,7 @@ menu {
 	
 }
 #potato {
-	:calc(100% - 517px);
+	top:5%;
 	height:calc(100% - 517px);
 }
 #media {
