@@ -25,7 +25,7 @@
 	text-shadow:2px 2px 5px black;
 }
 body {
-background:#2f2f2f;
+	background:#2f2f2f;
 }
 .screen {
 	top:0;
@@ -53,6 +53,13 @@ menu {
 	background:#333;
 }
 #media:target {
+	display:block;
+}
+#contact {
+	display:none;
+	background:#333;
+}
+#contact:target {
 	display:block;
 }
 ul {
