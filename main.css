@@ -44,6 +44,10 @@ menu {
 #home {
 	
 }
+#potato {
+	:calc(100% - 517px);
+	height:calc(100% - 517px);
+}
 #media {
 	display:none;
 	background:#333;
