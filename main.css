@@ -46,7 +46,7 @@ menu {
 }
 #potato {
 	top:5%;
-	max-height:250p;
+	max-height:250px;
 }
 #media {
 	display:none;
@@ -60,6 +60,13 @@ menu {
 	background:#333;
 }
 #contact:target {
+	display:block;
+}
+#about {
+	display:none;
+	background:#333;
+}
+#about:target {
 	display:block;
 }
 ul {
