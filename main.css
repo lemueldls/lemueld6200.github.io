@@ -113,6 +113,6 @@ li a:hover:not(.active) {
 	height:200px;
 }
 @media screen and (max-width:750px) { /* <=#=v=#=> CSS Styles for Phones <=#=v=#=> */ {
-	top:20%;
+	top:15%;
 	max-height:400px;
 }
