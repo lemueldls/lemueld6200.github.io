@@ -25,7 +25,7 @@
 	text-shadow:2px 2px 5px black;
 }
 body {
-	background-color:#2f2f2f;
+
 }
 .screen {
 	top:0;
@@ -40,7 +40,8 @@ menu {
 	position:absolute;
 }
 #home {
-	background:url("https://t5.rbxcdn.com/a40183d08aeb6889e14827b404a5c5a4");
+	
+	background-image:url("https://t5.rbxcdn.com/a40183d08aeb6889e14827b404a5c5a4");
 }
 #media {
 	display:none;
