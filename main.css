@@ -41,8 +41,12 @@ menu {
 	left:0;
 	position:absolute;
 }
+#aboutShow {
+	display:block;
+}
 .dropdown {
 	float:right;
+	display:none;
 }
 li a, .dropbtn {
     display:inline-block;
@@ -153,5 +157,11 @@ li a:hover:not(.active) {
 @media screen and (max-width:750px) { /* <=#=v=#=> CSS Styles for Phones <=#=v=#=> */
 	#potato {
 		
+	}
+	#aboutShow {
+		display:none;
+	}
+	.dropdown {
+		display:block;
 	}
 }
