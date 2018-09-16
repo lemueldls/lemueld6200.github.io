@@ -73,7 +73,7 @@ menu {
 #about:target {
 	display:block;
 }
-ul {
+#dropdown, ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -90,7 +90,7 @@ li:last-child {
     border-right: none;
 }
 
-li a {
+#dropdown, li a {
     display: block;
     color: white;
     text-align: center;
