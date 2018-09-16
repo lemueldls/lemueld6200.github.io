@@ -41,6 +41,15 @@ menu {
 	left:0;
 	position:absolute;
 }
+#dropdown {
+	height:100%;
+	margin:0;
+	padding:0;
+	float:right;
+	display:block;
+	background:#333;
+	border-right:1px solid #bbb;
+}
 #home {
 	
 }
@@ -73,7 +82,7 @@ menu {
 #about:target {
 	display:block;
 }
-#dropdown, ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -90,7 +99,7 @@ li:last-child {
     border-right: none;
 }
 
-#dropdown, li a {
+li a {
     display: block;
     color: white;
     text-align: center;
