@@ -45,8 +45,11 @@ menu {
 	
 }
 #potato {
-	top:10%;
-	max-height:900px;
+	top:20%;
+	left:25%;
+	width:25%;
+	height:65%;
+	position:absolute;
 }
 #media {
 	display:none;
