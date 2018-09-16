@@ -1,6 +1,7 @@
 alert("Potato");
 
 function dropdown() {
+	alert();
 	for (var i = 0; i < document.getElementsByClassName("dropdown-content").length; i++) {
 		var x = document.getElementsByClassName("dropdown-content")[i];
 		if (x.style.display === "none") { 
