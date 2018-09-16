@@ -41,20 +41,23 @@ menu {
 	left:0;
 	position:absolute;
 }
-.dropdown {
-    float:right;
-    overflow:hidden;
-}
-.dropdown .dropbtn {
-    font-size: 16px;    
-    border: none;
-    outline: none;
+
+li a, .dropbtn {
+    display: inline-block;
     color: white;
+    text-align: center;
     padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+    text-decoration: none;
 }
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -65,7 +68,6 @@ menu {
 }
 
 .dropdown-content a {
-    float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -73,8 +75,10 @@ menu {
     text-align: left;
 }
 
-.dropdown-content a:hover {
-    background-color: #ddd;
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 #home {
 	
