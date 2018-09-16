@@ -41,6 +41,9 @@ menu {
 	left:0;
 	position:absolute;
 }
+.dropdown {
+	float:right;
+}
 li a, .dropbtn {
     display:inline-block;
     color:whitesmoke;
