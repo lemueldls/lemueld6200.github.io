@@ -45,10 +45,11 @@ menu {
 	
 }
 #potato {
-	top:5%;
+	top:10%;
 	left:30%;
 	width:40%;
 	height:90%;
+	z-index:-1;
 	position:absolute;
 }
 #media {
