@@ -1,3 +1,5 @@
+alert("Potato");
+
 function dropdown() {
 	var x = document.getElementById("dropdown-content");
     if (x.style.display === "none") {
