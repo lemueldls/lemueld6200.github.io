@@ -19,9 +19,7 @@
 			<li class="dropdown">
 				<a onclick="dropdown()" class="dropbtn">More &crarr;</a>
 			    	<div onclick="dropdown()" class="dropdown-content">
-			      		<a href="#">Link 1</a>
-			      		<a href="#">Link 2</a>
-			      		<a href="#">Link 3</a>
+					<a href="#about">About</a>
 			    	</div>
 			</li>
 		</ul>
@@ -35,10 +33,13 @@
 			<li><a href="#">Home</a></li>
 			<li><a class="active" href="#media">Media</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li class="active" id="aboutShow" style="float:right"><a href="#about">About</a></li>
-			<li><select id="dropdown">
-				<a><option value="about">About</option></a>
-			</select></li>
+			<li id="aboutShow" style="float:right"><a href="#about">About</a></li>
+			<li class="dropdown">
+				<a onclick="dropdown()" class="dropbtn">More &crarr;</a>
+			    	<div onclick="dropdown()" class="dropdown-content">
+					<a href="#about">About</a>
+			    	</div>
+			</li>
 		</ul>
 		<div style="display:inline-block;">
 			<a href="https://github.com/lemueld6200"><img class="media" title="Github" src="http://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png"></a>
@@ -50,7 +51,13 @@
 			<li><a href="#">Home</a></li>
 			<li><a href="#media">Media</a></li>
 			<li><a class="active" href="#contact">Contact</a></li>
-			<li style="float:right"><a href="#about">About</a></li>
+			<li id="aboutShow" style="float:right"><a href="#about">About</a></li>
+			<li class="dropdown">
+				<a onclick="dropdown()" class="dropbtn">More &crarr;</a>
+			    	<div onclick="dropdown()" class="dropdown-content">
+					<a href="#about">About</a>
+			    	</div>
+			</li>
 		</ul>
 		You can contact me at <a href="mailto:lemueld6200@afsenyc.org">lemueld6200@afsenyc.org</a>.<br>
 		To find out more <a href="#about">about me</a> check out my <a href="#media">social media</a>
@@ -60,10 +67,13 @@
 			<li><a href="#">Home</a></li>
 			<li><a href="#media">Media</a></li>
 			<li><a class="active" href="#contact">Contact</a></li>
-			<li style="float:right"><a href="#about">About</a></li>
-			<li><select id="dropdown">
-				<a><option class="active" value="about">About</option></a>
-			</select></li>
+			<li id="aboutShow" style="float:right"><a href="#about">About</a></li>
+			<li class="dropdown">
+				<a onclick="dropdown()" class="dropbtn">More &crarr;</a>
+			    	<div onclick="dropdown()" class="dropdown-content">
+					<a href="#about" class="active">About</a>
+			    	</div>
+			</li>
 		</ul>
 		</div>
 	</body>
