@@ -1,11 +1,13 @@
 alert("Potato");
 
 function dropdown() {
-	var x = document.getElementById("dropdown-content");
-    	if (x.style.display === "none") {
-        	x.style.display = "block";
-    	}
-	else {
-        	x.style.display = "none";
-    	}
+	for (var i = 0; i < document.getElementsByClassName("dropdown-content").length; i++) {
+		var x = document.getElementsByClassName("dropdown-content")[i];
+		if (x.style.display === "none") { 
+			x.style.display = "block";
+		}
+		else {
+			x.style.display = "none";
+		}
+	}
 }
