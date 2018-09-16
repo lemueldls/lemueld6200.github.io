@@ -45,10 +45,10 @@ menu {
 	
 }
 #potato {
-	top:20%;
-	left:25%;
-	width:25%;
-	height:65%;
+	top:5%;
+	left:30%;
+	width:30%;
+	height:75%;
 	position:absolute;
 }
 #media {
@@ -117,10 +117,6 @@ li a:hover:not(.active) {
 }
 @media screen and (max-width:750px) { /* <=#=v=#=> CSS Styles for Phones <=#=v=#=> */
 	#potato {
-		top:20%;
-		left:25%;
-		width:25%;
-		height:65%;
-		position:absolute;
+		
 	}
 }
