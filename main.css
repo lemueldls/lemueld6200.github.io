@@ -62,7 +62,6 @@ li.dropdown {
     display:inline-block;
 }
 .dropdown-content {
-	float:50%;
     display:none;
     position:absolute;
     background-color:#f9f9f9;
@@ -97,6 +96,10 @@ li.dropdown {
 }
 #media:target {
 	display:block;
+}
+#sclmda {
+	margin:0 auto;
+	display:inline-block;
 }
 #contact {
 	display:none;
@@ -157,8 +160,7 @@ li a:hover:not(.active) {
 }
 @media screen and (max-width:750px) { /* <=#=v=#=> CSS Styles for Phones <=#=v=#=> */
 	#potato {
-		left:2.5%;
-		width:95%;
+		
 	}
 	#aboutShow {
 		display:none;
