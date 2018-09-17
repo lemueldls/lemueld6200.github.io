@@ -158,7 +158,7 @@ li a:hover:not(.active) {
 @media screen and (max-width:750px) { /* <=#=v=#=> CSS Styles for Phones <=#=v=#=> */
 	#potato {
 		left:5%;
-		width:65%;
+		width:90%;
 	}
 	#aboutShow {
 		display:none;
