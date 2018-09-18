@@ -1,3 +1,18 @@
+---
+layout: post
+title: "Lemuel De Los Santos"
+date: 2018-09-18
+---
+	<ul class="menu">
+		<li><a href="#">Home</a></li>
+		<li><a class="active" href="/blog">Blog</a></li>
+	</ul>
+	<h1>{{ page.title }}</h1>
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
 <head>
 <title>Lemuel De Los Santos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
@@ -6,14 +21,3 @@
     <script src="/script.js"></script>
     <script src="https://potatoking03.github.io/0.9.1.min.js"></script> <!-- << My custom external JS cross-platform << -->
 </head>
-<ul id="menu">
-	<li><a class="active" href="#">Home</a></li>
-	<li><a href="/blog">Blog</a></li>
-</ul>
----
-layout: post
-title: "Lemuel De Los Santos"
-date: 2018-09-18
----
-
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
