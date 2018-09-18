@@ -126,6 +126,7 @@ li.dropdown {
 	background:transparent;
 }
 .menu li {
+	height:100%;
 	border-bottom:thin solid #222;
 	border-right:thin solid transparent;
 }
