@@ -36,7 +36,7 @@ body {
 	position:absolute;
 	background-repeat:space;
 }
-menu {
+#menu {
 	top:0;
 	left:0;
 	position:absolute;
@@ -119,6 +119,9 @@ li.dropdown {
 	width:100%;
 	border-bottom:thin solid #222;
 	background:transparent;
+}
+.menu li {
+	border-right:1px solid #bbb;
 }
 ul {
     list-style-type: none;
