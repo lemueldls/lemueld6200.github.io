@@ -127,6 +127,7 @@ li.dropdown {
 }
 .menu li {
 	height:100%;
+	display:inline-block;
 	border-bottom:thin solid #222;
 	border-right:thin solid transparent;
 }
