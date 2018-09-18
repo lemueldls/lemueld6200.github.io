@@ -124,8 +124,9 @@ ul {
 }
 
 li {
-    float: left;
-    border-right:1px solid #bbb;
+    	float: left;
+	box-shadow:5px 5px 5px black;
+    	border-right:1px solid #bbb;
 }
 
 li:last-child {
