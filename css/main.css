@@ -30,6 +30,10 @@ body {
 .posts {
 	
 }
+.posts span {
+	background:#555;
+	border:thin solid whitesomke;
+}
 .screen {
 	top:0;
 	left:0;
