@@ -4,7 +4,10 @@ title: Lemuel De Los Santos
 ---
     <h1>{{ page.title }}</h1>
     <ul class="posts">
-
+	<ul class="menu">
+		<li><a href="#">Home</a></li>
+		<li><a class="active" href="/blog">Blog</a></li>
+	</ul>
       {% for post in site.posts %}
         <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
       {% endfor %}
@@ -18,7 +21,3 @@ title: Lemuel De Los Santos
     <script src="/script.js"></script>
     <script src="https://potatoking03.github.io/0.9.1.min.js"></script> <!-- << My custom external JS cross-platform << -->
 </head>
-<ul id="menu">
-	<li><a class="active" href="#">Home</a></li>
-	<li><a href="/blog">Blog</a></li>
-</ul>
