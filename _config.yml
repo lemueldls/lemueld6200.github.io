@@ -1,2 +1,3 @@
     name: Lemuel De Los Santos
     markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
