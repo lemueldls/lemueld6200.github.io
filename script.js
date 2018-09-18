@@ -1,5 +1,3 @@
-alert("Potato");
-
 function dropdown() {
 	var x = document.getElementsByClassName("dropdown-content");
 	for (var i = 0; i < x.length; i++) {
