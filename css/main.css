@@ -123,10 +123,10 @@ li.dropdown {
 	left:0;
 	width:100%;
 	position:absolute;
-	border-bottom:thin solid #222;
 	background:transparent;
 }
 .menu li {
+	border-bottom:thin solid #222;
 	border-right:thin solid transparent;
 }
 ul {
