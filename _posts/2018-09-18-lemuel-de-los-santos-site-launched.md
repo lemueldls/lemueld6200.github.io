@@ -7,7 +7,7 @@ date: 2018-09-18
 <ul class="menu">
 	<li><a href="/">Home</a></li>
 	<li><a href="/blog">Blog</a></li>
-   </ul>
+</ul>
 <head>
 <title>Lemuel De Los Santos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
