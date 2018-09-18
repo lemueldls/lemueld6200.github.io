@@ -121,7 +121,7 @@ li.dropdown {
 	background:transparent;
 }
 .menu li {
-	border-right:1px solid #bbb;
+	border-right:thin solid transparent;
 }
 ul {
     list-style-type: none;
