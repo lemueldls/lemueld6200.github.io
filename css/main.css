@@ -115,6 +115,11 @@ li.dropdown {
 #about:target {
 	display:block;
 }
+.menu {
+	width:100%;
+	border-bottom:thin solid #222;
+	background:transparent;
+}
 ul {
     list-style-type: none;
     margin: 0;
