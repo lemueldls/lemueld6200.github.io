@@ -1,4 +1,3 @@
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
 <ul class="menu">
 	<li><a href="/">Home</a></li>
 	<li><a class="active" href="/blog">Blog</a></li>
@@ -11,6 +10,7 @@ Well. Finally got around to putting this old website together. Neat thing about 
     <script src="/script.js"></script>
     <script src="https://potatoking03.github.io/0.9.1.min.js"></script> <!-- << My custom external JS cross-platform << -->
 </head>
+Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
 
 ---
 layout: post
