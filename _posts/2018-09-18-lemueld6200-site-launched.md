@@ -16,7 +16,6 @@ Well. Finally got around to putting this old website together. Neat thing about 
     <script src="/script.js"></script>
     <script src="https://potatoking03.github.io/0.9.1.min.js"></script> <!-- << My custom external JS cross-platform << -->
 </head>
-<img id="potato" alt="Potato" src="https://t5.rbxcdn.com/a40183d08aeb6889e14827b404a5c5a4">
 <ul id="menu">
 	<li><a class="active" href="#">Home</a></li>
 	<li><a href="/blog">Blog</a></li>
