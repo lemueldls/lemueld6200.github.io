@@ -6,7 +6,7 @@ date: 2018-09-18
 
 <ul class="menu">
 	<li><a href="/">Home</a></li>
-	<li><a class="active" href="/blog">Blog</a></li>
+	<li><a href="/blog">Blog</a></li>
    </ul>
 <head>
 <title>Lemuel De Los Santos</title>
