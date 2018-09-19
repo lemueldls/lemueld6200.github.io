@@ -43,6 +43,7 @@ body {
 	background:transparent;
 }
 .menu li {
+	width:20%;
 	height:100%;
 	display:inline-block;
 	border-bottom:thin solid #222;
