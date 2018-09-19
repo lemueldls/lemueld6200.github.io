@@ -82,10 +82,10 @@ li a:hover:not(.active) {
 .active {
     background-color:dodgerblue;
 }
-#cSts {
+.cv {
 	top:10%;
-	left:10%;
-	width:80%;
+	left:5%;
+	width:90%;
 	background:#333;
 	position:absolute;
 }
