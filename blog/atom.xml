@@ -8,7 +8,7 @@ layout: feed
     <link href="http://lemueld6200.github.io/blog/atom.xml" rel="self"/>
     <link href="http://lemueld6200.github.io/blog"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>http://hankquinlan.github.io/blog</id>
+    <id>http://lemueld6200.github.io/blog</id>
     <author>
         <name>Lemuel De Los Santos</name>
         <email>lemueld6200@afsenyc.org</email>
