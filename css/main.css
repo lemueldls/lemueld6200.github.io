@@ -42,8 +42,8 @@ body {
 	width:20%;
 	height:100%;
 	display:inline-block;
+    	border-right:1px solid #bbb;
 	border-bottom:thin solid #222;
-	border-right:thin solid transparent;
 }
 ul {
     list-style-type: none;
