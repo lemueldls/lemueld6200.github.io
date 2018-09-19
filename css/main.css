@@ -18,17 +18,23 @@ body {
 .menu {
 	top:0;
 	left:0;
+    	margin: 0;
+    	padding: 0;
 	width:100%;
+	overflow: hidden;
 	position:absolute;
-	display:inline-block;
+	list-style-type: none;
 	border-bottom:thin solid #222;
 	box-shadow:2px 2px 5px black;
 }
 .menu li {
-	height:100%;
 	width:25%;
+	height:100%;
+	display: block;
 	background:#333;
-	dislpay:inline-block;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
 	box-shadow:2px 2px 5px black;
 }
 ul {
