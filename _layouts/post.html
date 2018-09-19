@@ -4,6 +4,24 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
+<head>
+    <title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
+    <link rel="icon" href="https://t5.rbxcdn.com/a40183d08aeb6889e14827b404a5c5a4">
+    <script src="/script.js"></script>
+    <script src="https://potatoking03.github.io/0.9.1.min.js"></script> <!-- << My custom external JS cross-platform << -->
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+     	    <li><a href="/">Home</a></li>
+    	    <li><a href="/blog">Blog</a></li>
+    	    <li><a href="/about">About</a></li>
+    	    <li><a href="/cv">CV</a></li>
+        </ul>
+</nav>
 <div class="post">
 	<br><br>
 	
