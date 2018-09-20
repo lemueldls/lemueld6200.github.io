@@ -1,12 +1,16 @@
-@keyframes bounce {
-        0%   { transform: scale(1,1)      translateY(0); }
-        10%  { transform: scale(1.1,.9)   translateY(0); }
-        30%  { transform: scale(.9,1.1)   translateY(-100px); }
-        50%  { transform: scale(1.05,.95) translateY(0); }
-        57%  { transform: scale(1,1)      translateY(-7px); }
-        64%  { transform: scale(1,1)      translateY(0); }
-        100% { transform: scale(1,1)      translateY(0); }
-    }
+@-webkit-keyframes bounce {
+    from { left: 100px; bottom: 300px; height: 150px; }
+    10% { left: 150px; bottom: 0px; height: 50px; }
+    20% { left: 200px; bottom: 250px; height: 140px; }
+    30% { left: 250px; bottom: 0px; height: 60px; }
+    40% { left: 300px; bottom: 200px; height: 130px; }
+    50% { left: 350px; bottom: 0px; height: 70px; }
+    60% { left: 400px; bottom: 150px; height: 120px; }
+    70% { left: 450px; bottom: 0px; height: 80px; }
+    80% { left: 500px; bottom: 100px; height: 110px; }
+    90% { left: 550px; bottom: 0px; height: 90px; }
+    100% { left: 600px; bottom: 50px; height: 100px; }
+}
 * {
 	color:whitesmoke;
 	text-align:center;
