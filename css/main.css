@@ -129,7 +129,7 @@ p a {
 	top:5%;
 	width:40%;
 	height:90%;
-	animation:out 1s 1;
+	animation:out 0.25s 1;
 	animation-direction:reverse;
 	left:40%;
 	top:15%;
