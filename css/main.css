@@ -98,3 +98,9 @@ li a:hover:not(.active) {
 	background:#333;
 	position:absolute;
 }
+@media only screen and (orientation: portrait) {
+	#potato {
+		left:5%;
+		width:90%;
+	}
+}
