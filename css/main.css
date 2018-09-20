@@ -109,8 +109,6 @@
 		transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 	} 
 }
-
-
 * {
 	color:whitesmoke;
 	text-align:center;
@@ -133,9 +131,14 @@ p a {
 	animation:bounce 1.5s infinite;
 }
 #potato:not(:active) {
+	left:60%;
 	width:20%;
 	height:45%;
 	animation:out 1s 1;
+	left:30%;
+	bottom:0;
+	width:40%;
+	height:90%
 }
 .posts span {
 	border-bottom:thin solid whitesmoke;
