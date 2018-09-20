@@ -24,7 +24,7 @@ body {
 	height:90%;
 	z-index:-1;
 	position:absolute;
-	animation:bounce 2s infinite;
+	animation:bounce 1s infinite;
 }
 
 ul {
