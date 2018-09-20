@@ -38,6 +38,9 @@
 body {
 	background:#2f2f2f;
 }
+p a {
+	color:lightgray;
+}
 #potato {
 	left:30%;
 	bottom:0;
