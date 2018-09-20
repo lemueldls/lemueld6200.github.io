@@ -1,12 +1,33 @@
 
 @keyframes bounce {
-        0%   { transform: scale(1,1)      translateY(0); }
-        10%  { transform: scale(1.1,.9)   translateY(0); }
-        30%  { transform: scale(.9,1.1)   translateY(-100px); }
-        50%  { transform: scale(1.05,.95) translateY(0); }
-        57%  { transform: scale(1,1)      translateY(-7px); }
-        64%  { transform: scale(1,1)      translateY(0); }
-        100% { transform: scale(1,1)      translateY(0); }
+        0%   {
+		translateY(0);
+		transform: scale(1,1)
+	}
+        10%  {
+		translateY(0);
+		transform: scale(1.1,.9)
+	}
+        30%  {
+		translateY(-100px);
+		transform: scale(.9,1.1)
+	}
+        50%  {
+		translateY(0);
+		transform: scale(1.05,.95)
+	}
+        57%  {
+		translateY(-7px);
+		transform: scale(1,1)
+	}
+        64%  {
+		translateY(0);
+		transform: scale(1,1)
+	}
+        100% {
+		translateY(0);
+		transform: scale(1,1)
+	}
 }
 * {
 	color:whitesmoke;
