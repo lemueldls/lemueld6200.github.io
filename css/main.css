@@ -124,29 +124,6 @@ p a {
 #potato:hover {
 	animation:bounce 1.5s infinite;
 }
-#potato:active {
-	left:30%;
-	top:5%;
-	width:40%;
-	height:90%;
-	animation:out 1s 1;
-	animation-direction:reverse;
-	left:40%;
-	top:15%;
-	width:20%;
-	height:35%;
-}
-#potato:not(:active) {
-	left:40%;
-	top:15%;
-	width:20%;
-	height:35%;
-	animation:out 1s 1;
-	left:30%;
-	top:5%;
-	width:40%;
-	height:90%;
-}
 .posts span {
 	border-bottom:thin solid whitesmoke;
 }
