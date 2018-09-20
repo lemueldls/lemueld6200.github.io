@@ -126,6 +126,7 @@ p a {
 }
 #potato:active {
 	animation:out 1s 1;
+	animation-direction:reverse;
 }
 .posts span {
 	border-bottom:thin solid whitesmoke;
