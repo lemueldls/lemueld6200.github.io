@@ -132,6 +132,13 @@ p a {
 	animation:out 1s 1;
 	animation-direction:reverse;
 }
+#potato:not(:active) {
+	left:40%;
+	top:15%;
+	width:20%;
+	height:35%;
+	animation:out 1s 1;
+}
 .posts span {
 	border-bottom:thin solid whitesmoke;
 }
