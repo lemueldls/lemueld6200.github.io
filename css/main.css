@@ -115,7 +115,7 @@ p a {
 }
 #potato {
 	left:30%;
-	bottom:0;
+	top:5%;
 	width:40%;
 	height:90%;
 	z-index:-1;
