@@ -128,6 +128,8 @@ p a {
 	height:90%;
 	z-index:-1;
 	position:absolute;
+}
+#potato:hover {
 	animation:bounce 1.5s infinite;
 }
 #potato:active {
