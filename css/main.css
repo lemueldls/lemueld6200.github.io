@@ -125,10 +125,6 @@ p a {
 	animation:bounce 1.5s infinite;
 }
 #potato:active {
-	left:40%;
-	top:15%;
-	width:20%;
-	height:40%;
 	animation:out 1s 1;
 	animation-direction:reverse;
 }
