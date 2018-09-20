@@ -23,7 +23,7 @@ body {
 	height:90%;
 	z-index:-1;
 	position:absolute;
-	animation:bounce 3s infinite;
+	animation:bounce 2s infinite;
 }
 
 ul {
