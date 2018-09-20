@@ -128,7 +128,7 @@ p a {
 	left:40%;
 	top:15%;
 	width:20%;
-	height:35%;
+	height:40%;
 	animation:out 1s 1;
 	animation-direction:reverse;
 }
@@ -138,6 +138,10 @@ p a {
 	width:20%;
 	height:35%;
 	animation:out 1s 1;
+	left:30%;
+	top:5%;
+	width:40%;
+	height:90%;
 }
 .posts span {
 	border-bottom:thin solid whitesmoke;
