@@ -124,6 +124,9 @@ p a {
 #potato:hover {
 	animation:bounce 1.5s infinite;
 }
+#potato:active {
+	animation:out 1s 1;
+}
 .posts span {
 	border-bottom:thin solid whitesmoke;
 }
