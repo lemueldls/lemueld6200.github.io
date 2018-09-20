@@ -130,7 +130,7 @@ p a {
 	position:absolute;
 	animation:bounce 1.5s infinite;
 }
-#potato:focus {
+#potato:active {
 	animation:out 1s 1;
 	animation-direction:alternate;
 }
