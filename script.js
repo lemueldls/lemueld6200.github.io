@@ -1,6 +1,6 @@
 var oofLoop;
 
-onclick = oof();
+document.getElementById("potato").onclick = oof();
 
 /* v=!=v=!= !-v-!DANGER ZONE!-v-! =!=v=!=v
  * window.onmousedown = function() { oofLoop = setInterval(function() { oof() }, 1) };
