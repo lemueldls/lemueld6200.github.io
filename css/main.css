@@ -58,7 +58,7 @@ p a {
 	display:block;
 	font-size:200%;
 	white-space:pre;
-	content:"Newest Blog";
+	content:"Newest Blog:";
 	text-decoraction:underline;
 	border-bottom:thin solid whitesmoke;
 }
