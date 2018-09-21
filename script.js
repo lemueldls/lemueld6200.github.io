@@ -3,7 +3,6 @@ var oofLoop;
 window.onmousedown = oof();
 window.onmouseup = clearInterval(oofLoop);
 window.ontouchstart = oof();
-window.ontouchend = clearInterval(oofLoop);
 function oof() {
 	oofLoop = setInterval(function() {
 		var oofAud = new Audio("https://lemueld6200.github.io/Roblox-death-sound.mp3");
