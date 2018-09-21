@@ -47,7 +47,7 @@ p a {
 .posts {
 	width:100%;
 	display:table;
-	box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px black;
 }
 .posts li:first-child {
 	width:100%;
