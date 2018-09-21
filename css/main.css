@@ -44,8 +44,12 @@ p a {
 #potato:hover {
 	animation:bounce 1.5s infinite;
 }
+.posts {
+	display:table;
+}
 .posts li:first-child {
 	width:100%;
+	display:block;
 	font-size:150%;
 	border-bottom:thin solid whitesmoke;
 }
