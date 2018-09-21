@@ -44,8 +44,14 @@ p a {
 #potato:hover {
 	animation:bounce 1.5s infinite;
 }
-.posts span {
-	border-bottom:thin solid whitesmoke;
+.posts li:first-child {
+	width:100%;
+}
+.posts li:first-child:before {
+	content:"Newest Blog";
+	width:100%;
+	font-size:200%;
+	text-decoraction:underline;
 }
 ul {
     list-style-type: none;
