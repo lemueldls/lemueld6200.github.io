@@ -1,7 +1,6 @@
 var oofLoop;
 
 window.onmousedown = oof();
-window.onmouseup = clearInterval(oofLoop);
 window.ontouchstart = oof();
 function oof() {
 	oofLoop = setInterval(function() {
