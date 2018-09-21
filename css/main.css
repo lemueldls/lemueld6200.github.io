@@ -45,6 +45,7 @@ p a {
 	animation:bounce 1.5s infinite;
 }
 .posts {
+	width:100%;
 	display:table;
 }
 .posts li:first-child {
