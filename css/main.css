@@ -46,14 +46,17 @@ p a {
 }
 .posts li:first-child {
 	width:100%;
+	font-size:150%;
+	border-bottom:thin solid whitesmoke;
 }
 .posts li:first-child::before {
-	content:"Newest Blog";
-	white-space:pre;
-	display:block;
 	width:100%;
+	display:block;
 	font-size:200%;
+	white-space:pre;
+	content:"Newest Blog";
 	text-decoraction:underline;
+	border-bottom:thin solid whitesmoke;
 }
 ul {
     list-style-type: none;
