@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Brand New Website"
-date: 2018-09-21
+date: 2018-09-19
 ---
 
 Well. Finally got around to putting this old website together.  
