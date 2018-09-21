@@ -47,8 +47,10 @@ p a {
 .posts li:first-child {
 	width:100%;
 }
-.posts li:first-child:before {
+.posts li:first-child::before {
 	content:"Newest Blog";
+	white-space:pre;
+	display:block;
 	width:100%;
 	font-size:200%;
 	text-decoraction:underline;
