@@ -63,6 +63,9 @@ p a {
 	content:"Newest Blog:";
 	text-decoraction:underline;
 }
+.posts li a:first-child {
+	font-size:175%;
+}
 ul {
     list-style-type: none;
     margin: 0;
