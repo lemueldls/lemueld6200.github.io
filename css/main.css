@@ -62,7 +62,6 @@ p a {
 	white-space:pre;
 	content:"Newest Blog:";
 	text-decoraction:underline;
-	border-bottom:thin solid whitesmoke;
 }
 ul {
     list-style-type: none;
