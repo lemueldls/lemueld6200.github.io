@@ -58,12 +58,13 @@ p a {
 .posts li:first-child::before {
 	width:100%;
 	display:block;
-	font-size:175%;
+	font-size:150%;
 	white-space:pre;
 	content:"Newest Blog:";
-	text-decoraction:underline;
+	text-decoration:underline;
 }
 .posts li a:first-child {
+	padding:10px;
 	font-size:175%;
 }
 ul {
