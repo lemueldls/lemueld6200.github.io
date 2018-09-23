@@ -21,7 +21,7 @@
 }
 @font-face {
     font-family:Happy Potato;
-    src:url(/happy_potatoes.zip);
+    src:url("../happy_potatoes.zip") format("truetype");
 }
 * {
 	color:whitesmoke;
