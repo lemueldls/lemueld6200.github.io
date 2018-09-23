@@ -136,7 +136,7 @@ li a:hover:not(.active) {
 }
 @media only screen and (max-width:600px) {
 	* {
-		font-size:125%;
+		font-size:115%;
 		font-family:Potatoes And Peas;
 	}
 	#potato {
