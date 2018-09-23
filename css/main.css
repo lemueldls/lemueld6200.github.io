@@ -1,4 +1,3 @@
-
 @keyframes bounce {
         10%  {
 		translateY(0);
@@ -19,6 +18,10 @@
         100% {
 		transform: scale(1,1)
 	}
+}
+@font-face {
+    font-family:Happy Potato;
+    src:url(/happy_potatoes.zip);
 }
 * {
 	color:whitesmoke;
