@@ -61,10 +61,9 @@ p a {
 	font-size:150%;
 	white-space:pre;
 	content:"Newest Blog:";
-	text-decoration:underline;
 }
 .posts li a:first-child {
-	padding:10px;
+	padding:15px;
 	font-size:175%;
 }
 ul {
