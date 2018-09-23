@@ -44,6 +44,9 @@ body {
 	background-attachment: fixed;
 	background:linear-gradient(to bottom right, #333, #555, #2f2f2f, #c0c0c0);
 }
+h1 {
+	font-family:Potatoes And Peas;
+}
 p a {
 	color:lightgray;
 }
