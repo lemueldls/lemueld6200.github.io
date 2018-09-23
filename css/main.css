@@ -35,7 +35,7 @@ body {
 	overflow-x:hidden;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background:linear-gradient(to bottom right, #2f2f2f, #c0c0c0);
+	background:linear-gradient(to bottom right, #555, #2f2f2f, #c0c0c0);
 }
 p a {
 	color:lightgray;
