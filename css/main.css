@@ -23,10 +23,14 @@
     font-family:Happy Potatos;
     src:url("../Happy Potatoes.ttf") format("truetype");
 }
+@font-face {
+    font-family:Potatoes And Peas;
+    src:url("../MB_PotatoesAndPeas.ttf") format("truetype");
+}
 * {
 	color:whitesmoke;
 	text-align:center;
-	font-family:Comic Sans MS;
+	font-family:Potatoes And Peas;
 	text-shadow:-2px 2px 2px black;
 }
 html {
