@@ -81,7 +81,7 @@ p a {
 	content:"Newest Blog:";
 }
 .posts li a:first-child {
-	padding:15px;
+	padding:50%;
 	font-size:175%;
 }
 ul {
