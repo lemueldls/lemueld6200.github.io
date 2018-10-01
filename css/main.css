@@ -30,7 +30,7 @@
 * {
 	color:whitesmoke;
 	text-align:center;
-	font-family:Comic Sans MS;
+	font-family:Comic Sans MS, Potatoes And Peas;
 	text-shadow:-2px 2px 2px black;
 }
 html {
@@ -141,7 +141,6 @@ li a:hover:not(.active) {
 @media only screen and (max-width:600px) {
 	* {
 		font-size:105%;
-		font-family:Potatoes And Peas;
 	}
 	#potato {
 		animation:bounce 1.5s infinite;
