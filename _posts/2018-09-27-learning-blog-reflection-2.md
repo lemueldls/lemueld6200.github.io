@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning Blog Reflection 02"
+title: "Learning Blog Reflection 2"
 date: 2018-09-27
 ---
 
