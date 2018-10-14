@@ -145,4 +145,7 @@ li a:hover:not(.active) {
 	#potato {
 		animation:bounce 1.5s infinite;
 	}
+	.posts li {
+		width:50%;
+	}
 }
