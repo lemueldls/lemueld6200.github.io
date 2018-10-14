@@ -67,6 +67,9 @@ p a {
 	display:table;
 	box-shadow: 0 10px 6px -6px black, 0 0 5px black;
 }
+.posts li {
+	border:thin solid whitesmoke;
+}
 .posts li:first-child {
 	width:100%;
 	display:block;
