@@ -65,7 +65,7 @@ rect {
 	z-index: -1;
 	position: absolute;
 }
-#potato: hover {
+#potato:hover {
 	animation: bounce 1.5s infinite;
 }
 .posts {
