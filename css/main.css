@@ -68,6 +68,7 @@ p a {
 	box-shadow: 0 10px 6px -6px black, 0 0 5px black;
 }
 .posts li {
+	width:calc(100/6);
 	border-top:thin solid whitesmoke;
 	border-bottom:thin solid whitesmoke;
 }
