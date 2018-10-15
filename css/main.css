@@ -51,6 +51,9 @@ h1 {
 p a {
 	color:lightgray;
 }
+rect {
+	background:transparent;
+}
 #potato {
 	left:30%;
 	top:5%;
