@@ -52,7 +52,7 @@ p a {
 	color:lightgray;
 }
 rect {
-	background:transparent;
+	fill:transparent;
 }
 #potato {
 	left:30%;
