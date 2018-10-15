@@ -1,159 +1,161 @@
 @keyframes bounce {
         10%  {
-		translateY(0);
-		transform: scale(1.1,.9)
+		transform: translateY(0);
+		transform:  scale(1.1,.9)
 	}
         30%  {
-		translateY(-100px);
-		transform: scale(.9,1.1)
+		transform: translateY(-100px);
+		transform:  scale(.9,1.1)
 	}
         50%  {
-		translateY(0);
-		transform: scale(1.05,.95)
+		transform: translateY(0);
+		transform:  scale(1.05,.95)
 	}
         57%  {
-		translateY(-7px);
-		transform: scale(1,1)
+		transform: translateY(-7px);
+		transform:  scale(1,1)
 	}
         100% {
-		transform: scale(1,1)
+		transform:  scale(1,1)
 	}
 }
 @font-face {
-    font-family:Happy Potatos;
-    src:url("../Happy Potatoes.ttf") format("truetype");
+    font-family: Happy Potatos;
+    src: url("../Happy Potatoes.ttf") format("truetype");
 }
 @font-face {
-    font-family:Potatoes And Peas;
-    src:url("../MB_PotatoesAndPeas.ttf") format("truetype");
+    font-family: Potatoes And Peas;
+    src: url("../MB_PotatoesAndPeas.ttf") format("truetype");
 }
 * {
-	color:whitesmoke;
-	text-align:center;
-	font-family:Comic Sans MS, Potatoes And Peas;
-	text-shadow:-2px 2px 2px black;
+	color: whitesmoke;
+	text-align: center;
+	font-family: Comic Sans MS, Potatoes And Peas;
+	text-shadow: -2px 2px 2px black;
 }
 html {
-	min-height: 100%;
+	min-height:  100%;
 }
 body {
-	margin: 0;
-	min-height: 100%;
-	overflow-x:hidden;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background:linear-gradient(to bottom right, #333, #555, #2f2f2f, #c0c0c0);
+	margin:  0;
+	min-height:  100%;
+	overflow-x: hidden;
+	background-repeat:  no-repeat;
+	background-attachment:  fixed;
+	background: linear-gradient(to bottom right, #333, #555, #2f2f2f, #c0c0c0);
 }
 h1 {
-	font-size:350%;
-	font-family:Potatoes And Peas;
+	font-size: 350%;
+	font-family: Potatoes And Peas;
 }
 p a {
-	color:lightgray;
+	color: lightgray;
+text {
+	fill:  whitesmoke;
 }
 rect {
-	fill:transparent;
+	fill: #2f2f2f;
 }
 #potato {
-	left:30%;
-	top:5%;
-	width:40%;
-	height:90%;
-	z-index:-1;
-	position:absolute;
+	left: 30%;
+	top: 5%;
+	width: 40%;
+	height: 90%;
+	z-index: -1;
+	position: absolute;
 }
-#potato:hover {
-	animation:bounce 1.5s infinite;
+#potato: hover {
+	animation: bounce 1.5s infinite;
 }
 .posts {
-	width:100%;
-	display:table;
-	box-shadow: 0 10px 6px -6px black, 0 0 5px black;
+	width: 100%;
+	display: table;
+	box-shadow:  0 10px 6px -6px black, 0 0 5px black;
 }
 .posts li {
-	width:calc(100%/6%);
-	border-top:thin solid whitesmoke;
-	border-bottom:thin solid whitesmoke;
+	width: calc(100%/6%);
+	border-top: thin solid whitesmoke;
+	border-bottom: thin solid whitesmoke;
 }
-.posts li:first-child {
-	width:100%;
-	display:block;
-	font-size:150%;
-	border-bottom:thin solid whitesmoke;
+.posts li: first-child {
+	width: 100%;
+	display: block;
+	font-size: 150%;
+	border-bottom: thin solid whitesmoke;
 }
-.posts li:first-child::before {
-	width:100%;
-	display:block;
-	font-size:150%;
-	white-space:pre;
-	content:"Newest Blog:";
+.posts li: first-child: : before {
+	width: 100%;
+	display: block;
+	font-size: 150%;
+	white-space: pre;
+	content: "Newest Blog: ";
 }
-.posts li a:first-child {
-	padding:50%;
-	font-size:175%;
+.posts li a: first-child {
+	padding: 50%;
+	font-size: 175%;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    top: 0;
+    list-style-type:  none;
+    margin:  0;
+    padding:  0;
+    overflow:  hidden;
+    background-color:  #333;
+    top:  0;
 }
 
 li {
-    float: left;
+    float:  left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    display:  block;
+    color:  white;
+    text-align:  center;
+    padding:  14px 16px;
+    text-decoration:  none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+li a: hover: not(.active) {
+    background-color:  #111;
 }
 .menu {
-	top:0;
-	left:0;
-	width:100%;
-	position:fixed;
-	border-bottom:thin solid #222;
-	box-shadow:2px 2px 5px black;
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	border-bottom: thin solid #222;
+	box-shadow: 2px 2px 5px black;
 }
 .menu li {
-	width:25%;
-	height:100%;
-	background:#333;
+	width: 25%;
+	height: 100%;
+	background: #333;
 }
 .active {
-    background-color:dodgerblue;
+    background-color: dodgerblue;
 }
 .cv {
-	top:15%;
-	left:5%;
-	width:90%;
-	height:50%;
-	background:#333;
-	position:absolute;
+	top: 15%;
+	left: 5%;
+	width: 90%;
+	height: 50%;
+	background: #333;
+	position: absolute;
 }
-@media only screen and (orientation: portrait) {
+@media only screen and (orientation:  portrait) {
 	#potato {
-		left:0;
-		width:100%;
+		left: 0;
+		width: 100%;
 	}
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
 	* {
-		font-size:105%;
+		font-size: 105%;
 	}
 	#potato {
-		animation:bounce 1.5s infinite;
+		animation: bounce 1.5s infinite;
 	}
 	.posts li {
-		width:50%;
+		width: 50%;
 	}
 }
