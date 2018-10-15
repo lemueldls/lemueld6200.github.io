@@ -68,6 +68,7 @@ p a {
 	box-shadow: 0 10px 6px -6px black, 0 0 5px black;
 }
 .posts li {
+	border-top:thin solid whitesmoke;
 	border-bottom:thin solid whitesmoke;
 }
 .posts li:first-child {
