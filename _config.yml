@@ -2,7 +2,7 @@ name: Lemuel De Los Santos
 email: lemueld6200@afsenyc.org
 github_username: lemueld6200
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-primer
 permalink: /blog/:year/:month/:day/:title
 plugins:
 - jekyll-feed
