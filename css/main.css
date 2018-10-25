@@ -95,6 +95,9 @@ rect {
 	padding: 50%;
 	font-size: 175%;
 }
+.supported {
+	content:"hi";
+}
 ul {
     list-style-type: none;
     margin: 0;
