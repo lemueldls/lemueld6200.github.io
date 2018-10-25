@@ -116,6 +116,10 @@ li a {
     text-decoration: none;
 }
 
+li a:hover {
+	color: lightgray;
+}
+
 li a:hover:not(.active) {
     background-color: #111;
 }
