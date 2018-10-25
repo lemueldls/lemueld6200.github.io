@@ -75,6 +75,7 @@ rect {
 }
 .posts li {
 	width: 20%;
+	height: 50%;
 	border-top: thin solid whitesmoke;
 	border-bottom: thin solid whitesmoke;
 }
