@@ -162,6 +162,6 @@ li a:hover:not(.active) {
 		animation: bounce 1.5s infinite;
 	}
 	.posts li {
-		width: 50%;
+		width: 100%;
 	}
 }
