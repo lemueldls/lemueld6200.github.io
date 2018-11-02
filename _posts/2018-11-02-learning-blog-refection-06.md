@@ -11,3 +11,4 @@ Today we learned to use *Markdown Syntax*. We can use
 - [x] Check
 - [x] Lists
 > Blockquotes
+And emojis :potato:
