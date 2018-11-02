@@ -8,5 +8,5 @@ date: 2018-11-02
 Today we learned to use *Markdown Syntax*
 
 ```html
-<h1>wow</h1
+<h1>wow</h1>
 ```
