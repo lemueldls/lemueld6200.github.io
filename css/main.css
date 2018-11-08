@@ -83,6 +83,7 @@ rect {
 	width: 100%;
 	display: block;
 	font-size: 150%;
+	padding: 10px;
 	border-bottom: thin solid whitesmoke;
 }
 .posts li:first-child::before {
