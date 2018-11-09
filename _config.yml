@@ -14,4 +14,4 @@ plugins:
 paginate: 10
 paginate_path: "/blog/page:num/"
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-midnight
