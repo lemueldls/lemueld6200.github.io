@@ -149,17 +149,6 @@ li a:hover:not(.active) {
 	background: #333;
 	position: absolute;
 }
-code {
-    color: whitesmoke;
-    padding: 10px;
-    width: 90%;
-    display: block;
-    margin: 0 auto;
-    background: #2f2f2f;
-    border-radius: 10px;
-    white-space: pre;
-    overflow: scroll;
-}
 @media only screen and (orientation: portrait) {
 	#potato {
 		left: 0;
