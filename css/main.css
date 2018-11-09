@@ -149,7 +149,7 @@ li a:hover:not(.active) {
 	background: #333;
 	position: absolute;
 }
-code {
+pre {
 	padding: 10px;
 	margin: 0 auto;
 	white-space: pre;
