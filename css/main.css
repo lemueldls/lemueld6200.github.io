@@ -156,6 +156,9 @@ li a:hover:not(.active) {
 		width: 100%;
 	}
 }
+code {
+	text-align: right;
+}
 @media only screen and (max-width: 600px) {
 	* {
 		font-size: 105%;
