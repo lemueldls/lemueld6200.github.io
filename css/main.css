@@ -28,7 +28,6 @@
     src: url("../MB_PotatoesAndPeas.ttf") format("truetype");
 }
 * {
-	color: whitesmoke;
 	text-align: center;
 	font-family: Comic Sans MS, Potatoes And Peas;
 	text-shadow: -2px 2px 2px black;
@@ -46,6 +45,7 @@ body {
 }
 h1 {
 	font-size: 350%;
+	color: whitesmoke;
 	font-family: Potatoes And Peas;
 }
 p a {
