@@ -138,8 +138,8 @@ li a:hover:not(.active) {
 	box-shadow: 2px 2px 5px black;
 }
 .menu li {
-	width: 25%;
-	height: 100%;
+	width: 25% !important;
+	height: 100% !important;
 	background: #333;
 }
 .active {
