@@ -142,6 +142,9 @@ li a:hover:not(.active) {
 	height: 100%;
 	background: #333;
 }
+.menu li a {
+	width: 100%;
+}
 .active {
     background-color: dodgerblue;
 }
