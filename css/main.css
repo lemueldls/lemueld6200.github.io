@@ -106,7 +106,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
     top: 0;
 }
 
@@ -139,8 +138,7 @@ li a:hover:not(.active) {
 }
 .menu li {
 	width: 25%;
-	height: 100%;
-	background: #333;
+	height: 100%
 }
 .menu li a {
 	width: 100%;
