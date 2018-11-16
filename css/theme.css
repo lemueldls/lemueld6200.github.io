@@ -12,7 +12,7 @@ code {
     text-shadow: none;
     text-align: left;
     border: thin solid whitesmoke;
-    font-family: Lucidatypewriter, monospace;
+    font-family: Lucidatypewriter, monospace !important;
 }
 .o { /* Operators */
     color: #F92672;
