@@ -5,7 +5,7 @@
 ---
 
 Today we made a screenshot of our game.
-![Wescheme Screenshot](/img/wescheme/Wescheme Screenshot.png)
+![Wescheme Screenshot](/img/wescheme/WeScheme Screenshot.png)
 I used the code,
 ```scheme
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
