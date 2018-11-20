@@ -108,6 +108,7 @@ ul {
     padding: 0;
     overflow: hidden;
     top: 0;
+	background: #2f2f2f;
 }
 
 li {
@@ -120,7 +121,6 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	background: #2f2f2f;
 }
 
 li a:hover {
