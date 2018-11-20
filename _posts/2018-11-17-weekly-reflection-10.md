@@ -5,8 +5,9 @@
 ---
 
 Today we made a screenshot of our game.
-![Wescheme Screenshot](/img/wescheme/WeScheme Screenshot.png)
-I used the code,
+![Wescheme Screenshot]  
+(/img/wescheme/WeScheme Screenshot.png)  
+I used the code,  
 ```scheme
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;; 0. Game title: Write the title of your game here
