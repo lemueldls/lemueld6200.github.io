@@ -4,7 +4,7 @@
     date: 2018-11-17
 ---
 
-Today we made a screenshot of our game.
+Today we made a screenshot of our game.  
 ![Wescheme Screenshot](/img/wescheme/WeScheme Screenshot.png)  
 I used the code,  
 ```scheme
