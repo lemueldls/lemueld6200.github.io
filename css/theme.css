@@ -59,3 +59,8 @@ code {
     color: #75715E;
 }
 
+@media only screen and (max-width: 600px) {
+    code {
+        font-size: 75%;
+    }
+}
