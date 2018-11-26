@@ -61,6 +61,6 @@ code {
 
 @media only screen and (max-width: 600px) {
     code {
-        font-size: 75%;
+        font-size: 13px;
     }
 }
