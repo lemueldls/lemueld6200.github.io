@@ -15,7 +15,7 @@ code {
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
-    line-height: 15.4px;
+    line-height: 100%;
     border: thin solid whitesmoke;
     font-family:"Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace !important;
 }
@@ -65,7 +65,7 @@ code {
 }
 
 @media only screen and (max-width: 600px) {
-    code {/*
-        font-size: 13px;*/
+    code {
+        font-size: 5px;
     }
 }
