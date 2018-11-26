@@ -27,9 +27,8 @@
     font-family: Potatoes And Peas;
     src: url("../MB_PotatoesAndPeas.ttf") format("truetype");
 }
-*:not(code) {
+* {
 	text-align: center;
-	font-family: Comic Sans MS, Potatoes And Peas;
 	text-shadow: -2px 2px 2px black;
 	color: whitesmoke;
 }
