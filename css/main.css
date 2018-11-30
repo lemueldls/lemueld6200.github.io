@@ -31,6 +31,7 @@
 	text-align: center;
 	text-shadow: -2px 2px 2px black;
 	color: whitesmoke;
+	font-size: 110%;
 }
 html {
 	min-height: 100%;
@@ -43,7 +44,6 @@ body {
 	background-attachment: fixed;
 	padding:0px 0 20px 0px;
 	font-weight: normal;
-	font-size: 110%;
 	font-family: Comic Sans MS, Potatoes And Peas;
 	background-attachment: fixed !important;
 	background: linear-gradient(to bottom right, #333, #555, #2f2f2f, #c0c0c0);
