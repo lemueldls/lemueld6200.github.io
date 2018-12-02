@@ -49,7 +49,7 @@ code {
     font-variant: normal;
     font-weight: 700;
     line-height: 100%;
-    font-size: 250%;
+    font-size: 125% !important;
     border: thin solid whitesmoke;
     font-family:monospace !important;
 }
