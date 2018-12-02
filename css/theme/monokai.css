@@ -4,8 +4,8 @@
 .p { /* Brackets */
     color: whitesmoke;
 }
-.k { /* Type */
-    color: #ff6188;
+.k { /* Function */
+    color: #78dce8;
 }
 .kd { /* Declarations */
     color: #66D9EF;
