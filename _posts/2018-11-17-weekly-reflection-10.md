@@ -22,7 +22,7 @@ I used the code,
 	(scale 0.25
 		(bitmap/url "https://cdn.cnn.com/cnnnext/dam/assets/160111112610-hong-kong-mcdonalds-next.jpg")))
 	(scale 0.025
-		(bitmap/url "http://i.imgur.com/IK9NKkt.png")))
+		(bitmap/url "http://i.imgur.com/IK9NKkt.png"))
 (define DANGER
 	(scale 0.5 
 		(bitmap/url "https://mbtskoudsalg.com/images/mcdonalds-clown-png-1.png")))
