@@ -32,8 +32,26 @@
 	text-shadow: -2px 2px 2px black;
 	color: whitesmoke;
 }
-:not(code) {
-	font-size: 110%;
+code {
+    color: whitesmoke;
+    padding: 10px;
+    min-width: 90%;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+    background: #2f2f2f;
+    border-radius: 10px;
+    white-space: pre;
+    overflow: auto;
+    text-shadow: none;
+    text-align: left;
+    font-size: 8px !important;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 100%;
+    border: thin solid whitesmoke;
+    font-family:"Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace !important;
 }
 html {
 	min-height: 100%;
