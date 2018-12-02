@@ -50,7 +50,7 @@ code {
     font-weight: 700;
     line-height: 100%;
     border: thin solid whitesmoke;
-    font-family:"Lucida Sans Typewriter", "Bitstream Vera Sans Mono", monospace !important;
+    font-family:monospace !important;
 }
 html {
 	min-height: 100%;
