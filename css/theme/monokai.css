@@ -20,12 +20,13 @@ code { /* Code Blocks */
 }
 .nf { /* Function Name */
     color: #ff6188;
+    font-style: italic;
 }
 .na { /* Identifier */
     color: whitesmoke;
 }
 .nb { /* Function Names */
-    color: steelblue;
+    color: #ff6188;
 }
 .no { /* # */
     color: steelblue;
