@@ -16,7 +16,8 @@
     color: #A6E22E;
 }
 .nf { /* Function Name */
-    color: #a9dc76;
+    color: #fc9867;
+    font-style: italic;
 }
 .na { /* Identifier */
     color: whitesmoke;
@@ -28,7 +29,7 @@
     color: steelblue;
 }
 .nv { /* Function Variable */
-    color: #fc9867;
+    color: #a9dc76;
 }
 .nx { /* Paremeters */
     color: #FD971F;
