@@ -34,10 +34,8 @@ I used the code,
 		(text TITLE 64 TITLE-COLOR)
 			(text TITLE 66 "black"))
 				(put-image DANGER 400 100
-					(put-image TARGET
-						250 175
-							(put-image PLAYER
-								80 90
-									BACKGROUND)))))
+					(put-image TARGET 250 175
+						(put-image PLAYER 80 90
+							BACKGROUND)))))
 ```
 to create the image.
