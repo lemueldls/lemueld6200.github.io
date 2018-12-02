@@ -44,6 +44,6 @@ code { /* Code Blocks */
 .mi, .mf { /* Numberic */
     color: #ab9df2;
 }
-.c1, .cm { /* Comments */
+.c1, .cm /* Multi */ { /* Comments */
     color: #75715E;
 }
