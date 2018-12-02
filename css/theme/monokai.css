@@ -15,13 +15,13 @@
     color: #A6E22E;
 }
 .nf { /* Function Name */
-    color: steelblue;
+    color: #78dce8;
 }
 .na { /* Identifier */
     color: whitesmoke;
 }
 .nb { /* Function Names */
-    color: #78dce8;
+    color: steelblue;
 }
 .no { /* # */
     color: steelblue;
