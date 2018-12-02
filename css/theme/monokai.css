@@ -5,7 +5,7 @@
     color: whitesmoke;
 }
 .k { /* Type */
-    color: #F92672;
+    color: #ff6188;
 }
 .kd { /* Declarations */
     color: #66D9EF;
@@ -26,8 +26,8 @@
 .no { /* # */
     color: steelblue;
 }
-.nv { /* Function Domain */
-    color: #ff6188;
+.nv { /* Function Variable */
+    color: #fc9867;
 }
 .nx { /* Paremeters */
     color: #FD971F;
