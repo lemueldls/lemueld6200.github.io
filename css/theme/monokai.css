@@ -36,7 +36,7 @@
 .s, .s2 { /* String */
     color: #E6DB74;
 }
-.mi { /* Numberic */
+.mi, .mf { /* Numberic */
     color: #ab9df2;
 }
 .c1, .cm { /* Comments */
