@@ -21,13 +21,13 @@
     color: whitesmoke;
 }
 .nb { /* Function Names */
-    color: #A6E22E;
+    color: #ff6188;
 }
 .no { /* # */
     color: steelblue;
 }
 .nv { /* Function Domain */
-    color: steelblue;
+    color: #78dce8;
 }
 .nx { /* Paremeters */
     color: #FD971F;
