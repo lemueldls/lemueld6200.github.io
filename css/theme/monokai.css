@@ -6,6 +6,7 @@
 }
 .k { /* Function */
     color: #78dce8;
+    font-style: italic;
 }
 .kd { /* Declarations */
     color: #66D9EF;
