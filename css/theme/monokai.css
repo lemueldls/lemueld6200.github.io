@@ -19,7 +19,7 @@ code { /* Code Blocks */
     color: #A6E22E;
 }
 .nf { /* Function Name */
-    color: #ff6188;
+    color: #F92672;
     font-style: italic;
 }
 .na { /* Identifier */
