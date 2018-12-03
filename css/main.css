@@ -51,7 +51,7 @@ code {
     line-height: 100%;
     font-size: 125% !important;
     border: thin solid whitesmoke;
-    font-family:monospace !important;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
 }
 html {
 	min-height: 100%;
