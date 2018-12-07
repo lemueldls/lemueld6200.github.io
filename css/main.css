@@ -150,6 +150,7 @@ li a:hover:not(.active) {
 }
 .notebody ul {
 	background: none;
+	padding: 10px;
 	border-left: thin solid whitesmoke;
 }
 .notebody ul li {
