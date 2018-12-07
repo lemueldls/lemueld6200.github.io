@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning Blog Reflection 03"
+title: "Weekly Blog Reflection 03"
 date: 2018-10-04
 ---
 
