@@ -129,7 +129,10 @@ ul {
     top: 0;
 	background: #2f2f2f;
 }
-
+.notebody ul {
+	background: none;
+	broder-left: thin solid whitesmoke;
+}
 li {
     float: left;
 }
