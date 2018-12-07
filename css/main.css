@@ -129,10 +129,6 @@ ul {
     top: 0;
 	background: #2f2f2f;
 }
-.notebody ul {
-	background: none;
-	broder-left: thin solid whitesmoke;
-}
 li {
     float: left;
 }
@@ -151,6 +147,13 @@ li a:hover {
 
 li a:hover:not(.active) {
     background-color: #111;
+}
+.notebody ul {
+	background: none;
+	border-left: thin solid whitesmoke;
+}
+.notebody ul li {
+	list-style: square;
 }
 .menu {
 	top: 0;
