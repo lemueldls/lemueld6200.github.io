@@ -6,4 +6,4 @@
 
 # My Flag
  - Today, I am tryig to create the American Flag. So, I need the geomerty of the flag, and I got this image online.  
- ![American Flag](/img/flag/AmercianFlag)
+ ![American Flag](/img/flag/AmericanFlagGeomerty.gif)
