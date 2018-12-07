@@ -1,6 +1,6 @@
 ---
     layout: post
-    title: "Weekly Reflection 10"
+    title: "Weekly Blog Reflection 10"
     date: 2018-11-17
 ---
 
