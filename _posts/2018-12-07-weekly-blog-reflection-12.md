@@ -10,7 +10,7 @@
  - This image shows the length of the flag is 1.9 times the width of the flag, meaning I can make it scalabe my just changing the width, like,
  ```scheme
  	(define width 100)
-	(define length (* width 1.9))
+  	(define length (* width 1.9))
  ```
 
 # Questions and Challenges
