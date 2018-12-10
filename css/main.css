@@ -153,6 +153,7 @@ li a:hover:not(.active) {
 	padding: 10px;
 	list-style: square;
 	border-left: thick solid whitesmoke;
+	border-radius: 5px;
 }
 .menu {
 	top: 0;
