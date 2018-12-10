@@ -152,7 +152,7 @@ li a:hover:not(.active) {
 	background: none;
 	padding: 10px;
 	list-style: square;
-	border-left: thin solid whitesmoke;
+	border-left: thick solid whitesmoke;
 }
 .menu {
 	top: 0;
