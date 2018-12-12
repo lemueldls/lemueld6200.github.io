@@ -22,13 +22,13 @@ code { /* Code Blocks */
     color: #F92672;
 }
 .na { /* Identifier */
-    color: whitesmoke;
+    color: #A6E22E;
 }
 .nb { /* Function Names */
     color: #ff6188;
 }
 .no { /* # */
-    color: #a9dc76;
+    color: #A6E22E;
 }
 .nv { /* Function Variable */
     color: #fc9867;
