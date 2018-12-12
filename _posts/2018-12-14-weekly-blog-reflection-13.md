@@ -4,16 +4,6 @@
   date: 2018-12-14
 ---
 
-```javascript
-function x(att) {
-    return x * y;
-}
-var y = {
-    x: 3
-};
-x(y.x);
-```
-
 ```scheme
 ;; Width of flag:
 (define w 150)
