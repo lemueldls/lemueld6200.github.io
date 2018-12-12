@@ -18,13 +18,13 @@ code { /* Code Blocks */
 .kr { /* eval? */
     color: #A6E22E;
 }
-.nf { /* Function Name */
+.nf { /* Function Names */
     color: #F92672;
 }
 .na { /* Identifier */
     color: #A6E22E;
 }
-.nb { /* Function Names */
+.nb { /* Function Operation Names */
     color: #F92672;
 }
 .no { /* # */
