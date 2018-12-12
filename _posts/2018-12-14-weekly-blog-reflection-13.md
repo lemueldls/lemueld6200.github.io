@@ -14,7 +14,7 @@ var y = {
 x(y.x);
 ```
 
-```wescheme
+```scheme
 ;; Width of flag:
 (define w 150)
 ;; The length is 1.9 times more than the width:
