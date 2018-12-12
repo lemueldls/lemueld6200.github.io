@@ -4,7 +4,17 @@
   date: 2018-12-14
 ---
 
-```scheme
+```javascript
+function x(att) {
+    return x * y;
+}
+var y = {
+    x: 3
+};
+x(y.x);
+```
+
+```wescheme
 ;; Width of flag:
 (define w 150)
 ;; The length is 1.9 times more than the width:
