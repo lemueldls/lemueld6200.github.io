@@ -5,7 +5,7 @@
 ---
 
 I am making the American Flag in WeScheme.
-My challenges were figuring out how to make this flag scalable, meaning I could change one value, and it would change the shape of the entire flag, as explained in the [preveous blog](/blog/2018/12/07/weekly-blog-reflection-12).
+My challenges were figuring out how to make this flag scalable, meaning I could change one value, and it would change the shape of the entire flag, as explained in the [pervious blog](/blog/2018/12/07/weekly-blog-reflection-12).
 
 
 
