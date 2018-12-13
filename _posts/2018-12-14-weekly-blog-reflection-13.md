@@ -7,6 +7,14 @@
 I am making the American Flag in WeScheme.
 My challenges were figuring out how to make this flag scalable, meaning I could change one value, and it would change the shape of the entire flag, as explained in the [pervious blog](/blog/2018/12/07/weekly-blog-reflection-12).
 
+# Questions:
+ - What funcitons do I use for certain positions of the shapes.
+ 
+# Challenges:
+ - I can't get the stars in the right place, or get the right shape.
+ 
+# Opportunities:
+ - 
 
 
 ```scheme
