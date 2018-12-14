@@ -128,7 +128,6 @@ ul {
     overflow: hidden;
     top: 0;
     background: #2f2f2f;
-    padding: 0 10%;
 }
 li {
     float: left;
@@ -154,6 +153,7 @@ li a:hover:not(.active) {
 	padding: 10px;
 	list-style: square;
 	border-left: thick solid darkgray;
+    	padding: 0 10%;
 }
 .menu {
 	top: 0;
