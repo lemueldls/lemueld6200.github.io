@@ -62,4 +62,4 @@ So, I made the stripes.
 	(rectangle l w "outline" "black"))
 ```
 
-![American Flag WIP](/img/AmericanFlagWIP.png)
+![American Flag WIP](/img/wescheme/AmericanFlagWIP.png)
