@@ -1,13 +1,13 @@
 ---
   layout: post
-  title: "The American Flag"
+  title: "The American Flag - In Process"
   date: 2018-12-14
 ---
 
 This week, I am making the American Flag in [WeScheme]("https://www.wescheme.org/").
-My challenges were figuring out how to make this flag scalable, meaning I could change one value, and it would change the shape of the entire flag, as explained in the [pervious blog](/blog/2018/12/07/weekly-blog-reflection-12).  
+My challenges were figuring out how to make this flag scalable, meaning I could change one value, and it would change the shape of the entire flag, as explained in the [previous blog](/blog/2018/12/07/weekly-blog-reflection-12).  
   
-My proccess in thinking was trying to make the width and hieght of the flag right first. I then added the red and white stripes for the American Flag. The geomerty of each stripe is the width times 1/13, by the length of the flag. I made the stripes red, but I found out the color for the flag is "Old Glory Red" and "Old Glory Blue". So, I used the "make-color" function to create these colors.
+My process in thinking was trying to make the width and height of the flag right first. I then added the red and white stripes for the American Flag. The geometry of each stripe is the width times 1/13, by the length of the flag. I made the stripes red, but I found out the color for the flag is "Old Glory Red" and "Old Glory Blue". So, I used the "make-color" function to create these colors.
 ```scheme
 (define old-glory-red (make-color 187 19 62))
 (define old-glory-blue (make-color 0 38 100))
@@ -61,4 +61,5 @@ So, I made the stripes.
 		US-Union)
 	(rectangle l w "outline" "black"))
 ```
-                                        
+
+![American Flag WIP](/img/AmericanFlagWIP.png)
