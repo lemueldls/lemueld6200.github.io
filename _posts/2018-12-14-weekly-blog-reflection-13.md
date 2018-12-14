@@ -59,7 +59,7 @@ So, I made the stripes.
 													(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
 													(rectangle l (* w (/ 1 13)) "solid" old-glory-red)))))))
 		US-Union)
-	(rectangle l w "outline" "black"))
+	(rectangle l w "solid" "white"))
 ```
 
 ![American Flag WIP](/img/wescheme/AmericanFlagWIP.png)
