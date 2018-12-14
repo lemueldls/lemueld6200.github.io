@@ -22,7 +22,7 @@ So, I made the stripes.
  - What funcitons do I use for certain positions of the shapes.
  
 # Challenges:
- - I can't get the stars in the right place, or get the right shape.
+ - I can't get the stars in the right place, or get the right shape, It either gets to crowded, so I need to make the stars smaller, but then I need to change each of the positions as well.
  
 # Opportunities:
  - 
