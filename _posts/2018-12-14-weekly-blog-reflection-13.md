@@ -14,8 +14,9 @@ My proccess in thinking was trying to make the width and hieght of the flag righ
 ```
 So, I made the stripes.
 ```scheme
-(rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w 1/13))
+(rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
 ```
+
 
 # Questions:
  - What funcitons do I use for certain positions of the shapes.
@@ -39,26 +40,25 @@ So, I made the stripes.
 
 ;; US Flag Union:
 (define US-Union
-	(rectangle (* w 0.76) (* w 7/13) "solid" old-glory-blue))
+	(rectangle (* w 0.76) (* w (/ 7 13)) "solid" old-glory-blue))
 
 ;; US Flag Base:
 (overlay/align "left" "top"
 	(underlay/align "left" "top"
 		(overlay/xy
-			(rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w 1/13))
+			(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w 1/13))
 			(overlay/xy
-					(rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w 1/13))
+					(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w 1/13))
 					(overlay/xy
-							(rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w 1/13))
+							(rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
 							(overlay/xy
-									(rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w 1/13))
+									(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
 									(overlay/xy
-											(rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w 1/13))
+											(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
 											(overlay/xy
-													(rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w 1/13))
-													(rectangle l (* w 1/13) "solid" old-glory-red)))))))
+													(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
+													(rectangle l (* w (/ 1 13)) "solid" old-glory-red)))))))
 		US-Union)
 	(rectangle l w "outline" "black"))
-
 ```
                                         
