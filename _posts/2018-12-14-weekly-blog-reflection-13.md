@@ -26,8 +26,7 @@ So, I made the stripes.
  
 # Opportunities:
  - 
-
-
+  
 ```scheme
 ;; Width of flag:
 (define w 250)
