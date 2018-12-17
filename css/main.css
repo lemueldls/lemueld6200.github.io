@@ -28,6 +28,7 @@
     src: url("../MB_PotatoesAndPeas.ttf") format("truetype");
 }
 * {
+	transition: 0.3s;
 	text-align: center;
 	text-shadow: -2px 2px 2px black;
 	color: whitesmoke;
