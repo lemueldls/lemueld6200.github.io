@@ -120,8 +120,8 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-13)
 																																																	(put-image
 																																																		(star (* 0.75 (* w 0.0616)) "solid" "white") (* 9 (* w 0.063)) (* 9 (* w 0.054))
 																																																		(put-image
-																																																		(star (* 0.75 (* w 0.0616)) "solid" "white") (* 11 (* w 0.063)) (* 9 (* w 0.054))
-		(rectangle (* w 0.76) (* w (/ 7 13)) "solid" old-glory-blue))))))))))))))))))))))))))))))))))))))))))))))))))))
+																																																			(star (* 0.75 (* w 0.0616)) "solid" "white") (* 11 (* w 0.063)) (* 9 (* w 0.054))
+																																																			(rectangle (* w 0.76) (* w (/ 7 13)) "solid" old-glory-blue))))))))))))))))))))))))))))))))))))))))))))))))))))
 
 ;; US Flag Base:
 (overlay/align "left" "top"
