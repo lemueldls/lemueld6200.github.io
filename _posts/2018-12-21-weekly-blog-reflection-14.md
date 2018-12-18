@@ -11,7 +11,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-13)
 
 ```scheme
 ;; Width of flag:
-(define w 150)
+(define w 250)
 ;; The length is 1.9 times more than the width:
 (define l (* w 1.9))
 
@@ -142,3 +142,5 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-13)
 		US-Union)
 	(rectangle l w "solid" "white"))
 ```
+
+![American Flag Final](/img/wescheme/AmericanFlagFinal.png)
