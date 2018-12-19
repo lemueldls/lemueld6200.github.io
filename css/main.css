@@ -158,7 +158,8 @@ li a:hover:not(.active) {
 .notebody ul li a {
 	border: none;
 	background: transparent;
-	padding: none;
+	 padding: 0;
+	display: inline;
 }
 .menu {
 	top: 0;
