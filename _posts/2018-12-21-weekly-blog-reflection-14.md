@@ -9,7 +9,7 @@
 -   I designed this flag for the United States of America.
 -   I would expect my grade to be a 4(100%) because my flag is both scalable and geometrically accurate.
 
-My challanges on the [previous](/blog/2018/12/14/weekly-blog-reflection-1.md) blog were creating the stars.
+My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.md) were creating the stars.
 
 ## Current Output
 
@@ -23,7 +23,7 @@ My challanges on the [previous](/blog/2018/12/14/weekly-blog-reflection-1.md) bl
  ![](/img/flag/AmericanFlagGeomerty.gif)
  It shows the radius of the stars, (K) = 0.0616. Now I tried just using the funciton as
  ```scheme
- 	(star (* w 0.0616) "solid" "white")
+ (star (* w 0.0616) "solid" "white")
  ```
  But, the star function takes in the side length, meaning I can't add it like the radius.
  But now, thanks to [Mr. Allatta]("https://github.com/MrAllatta/"), he gave me a function to turn the raduis into the side length of the star.
@@ -33,16 +33,15 @@ My challanges on the [previous](/blog/2018/12/14/weekly-blog-reflection-1.md) bl
  ; looked up formula for converting between side-length and 
  ; radius of pentagon
  (define (star-radius radius mode color)
-   (local
-     [(define STAR-SIDE-LENGTH (* 2 radius (sin (/ pi 5))))]
-     (star STAR-SIDE-LENGTH mode color)))
+ 	(local
+ 		[(define STAR-SIDE-LENGTH (* 2 radius (sin (/ pi 5))))]
+ 		(star STAR-SIDE-LENGTH mode color)))
  ```
- - What questions, strategies, help from peers or teacher, or thinking got you to this point? _then delete this instruction_
-
-<!--- Delete this comment and add your writing -->
-
-
-## Explain your code.
+ So, I can just change the "star" function for a "star-radius" function
+ ```scheme
+ (star-radius (* w 0.0616) "solid" "white")
+ ```
+## Explaining My Code.
 
 -   Choose a significant part of your program (15 lines max) and paste it below. Do not insert your entire program here. _then delete this instruction_
 -   Explain each argument in the code section. _then delete this instruction_
@@ -71,9 +70,9 @@ Insert 10-15 line code section here _then delete this instruction_
 ; looked up formula for converting between side-length and 
 ; radius of pentagon
 (define (star-radius radius mode color)
-  (local
-    [(define STAR-SIDE-LENGTH (* 2 radius (sin (/ pi 5))))]
-    (star STAR-SIDE-LENGTH mode color)))
+	(local
+		[(define STAR-SIDE-LENGTH (* 2 radius (sin (/ pi 5))))]
+		(star STAR-SIDE-LENGTH mode color)))
 
 ;; Custom Colors for the US Flag:
 (define old-glory-red (make-color 187 19 62))
