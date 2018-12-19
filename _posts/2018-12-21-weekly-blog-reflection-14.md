@@ -21,11 +21,11 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
 
  - My challanges on the [previous](/blog/2018/12/14/weekly-blog-reflection-1.md) blog were creating the stars. In the geomerty of the American Flag
  ![American Flag Geomerty](/img/flag/AmericanFlagGeomerty.gif)  
- It shows the radius of the stars, (K) = 0.0616. Now I tried just using the funciton as
+ It shows the diameter of the stars, (K) = 0.0616. Now I tried just using the funciton as
  ```scheme
- (star (* w 0.0616) "solid" "white")
+ (star (* 0.5 (* w 0.0616) "solid" "white"))
  ```
- But, the star function takes in the side length, meaning I can't add it like the radius.
+ But, the star function takes in the side length, meaning I can't add it like the diameter divied by 2 to get the radius.
  But now, thanks to [Mr. Allatta](https://github.com/MrAllatta/), he gave me a function to turn the raduis into the side length of the star.
  ```scheme
  ; star-radius : Number String String -> Image
@@ -39,7 +39,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  ```
  So, I can just change the "star" function for a "star-radius" function
  ```scheme
- (star-radius (* w 0.0616) "solid" "white")
+ (star-radius (* 0.5 (* w 0.0616) "solid" "white"))
  ```
 ## Explaining My Code.
 
