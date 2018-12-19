@@ -14,19 +14,19 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
 ## Current Output
 
 * * *
-![American Flag Final](/img/wescheme/AmericanFlagFinal.png)
+![American Flag Final](/img/wescheme/AmericanFlagFinal.png)  
 * * *
 
 ## My Process
 
  - My challanges on the [previous](/blog/2018/12/14/weekly-blog-reflection-1.md) blog were creating the stars. In the geomerty of the American Flag
- ![](/img/flag/AmericanFlagGeomerty.gif)
+ ![American Flag Geomerty](/img/flag/AmericanFlagGeomerty.gif)  
  It shows the radius of the stars, (K) = 0.0616. Now I tried just using the funciton as
  ```scheme
  (star (* w 0.0616) "solid" "white")
  ```
  But, the star function takes in the side length, meaning I can't add it like the radius.
- But now, thanks to [Mr. Allatta]("https://github.com/MrAllatta/"), he gave me a function to turn the raduis into the side length of the star.
+ But now, thanks to [Mr. Allatta](https://github.com/MrAllatta/), he gave me a function to turn the raduis into the side length of the star.
  ```scheme
  ; star-radius : Number String String -> Image
  ; converts radius to side length 
