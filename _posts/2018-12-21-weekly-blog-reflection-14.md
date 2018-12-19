@@ -72,11 +72,8 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  		US-Union)
  	(rectangle l w "solid" "white"))
  ```
+ These stripes then go over the US-Union, and the US-Union has all 50 stars, and they _all_ result into this
 
--   Explain the code you posted by telling us about each argument.
--   Then tell us how your code section fits into the whole.
- 
-<!--- Delete this comment and add your writing -->
 ```scheme
 ;; Width of flag:
 (define w 500)
