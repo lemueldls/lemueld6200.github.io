@@ -43,16 +43,22 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  ```
 
 ## Explaining My Code
+
  - The red stripes for my flag are
+ 
  ```scheme
  (rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
  ```
+ 
  showed in the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.md).
  To make multiple stripes, I used alot of overlay/xys and underlay/xys, then for the y offset, I used
+ 
  ```scheme
  (* 2 (* w (/ 1 13)))
  ```
+ 
  To multiply it by 2 to have the white stripe spacing in between the stipes. So, I used the code,
+ 
  ```scheme
  (overlay/align "left" "top"
  	(underlay/align "left" "top"
@@ -72,6 +78,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  		US-Union)
  	(rectangle l w "solid" "white"))
  ```
+ 
  - These stripes then go over the US-Union, and the US-Union has all 50 stars, and they _all_ result into this
 
 ```scheme
