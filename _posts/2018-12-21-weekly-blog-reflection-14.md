@@ -41,6 +41,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  ```scheme
  (star-radius (* 0.5 (* w 0.0616) "solid" "white"))
  ```
+
 ## Explaining My Code
  - The red stripes for my flag are
  ```scheme
