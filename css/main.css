@@ -33,6 +33,8 @@
 	text-shadow: -2px 2px 2px black;
 	color: whitesmoke;
 }
+
+/* Code Blocks */
 code {
     color: whitesmoke;
     padding: 10px;
@@ -52,6 +54,22 @@ code {
     line-height: 100%;
     border: thin solid whitesmoke;
     font-family: "Operator", "Monaco", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace;
+}
+pre code {
+	white-space: pre-wrap;
+}
+	counter-reset: listing;
+}
+pre code {
+	counter-increment: listing;
+}
+pre code::before {
+	content: counter(listing) ". ";
+	display: inline-block;
+	width: 8em;         /* doesn't work */
+	padding-left: auto; /* doesn't work */
+	margin-left: auto;  /* doesn't work */
+	text-align: right;  /* doesn't work */
 }
 html {
 	min-height: 100%;
