@@ -51,7 +51,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  ```scheme
  (* 2 (* w (/ 1 13)))
  ```
- - To multiply it by 2 to have the white stripe spacing in between the stipes. So, I used the code,
+ To multiply it by 2 to have the white stripe spacing in between the stipes. So, I used the code,
  ```scheme
  (overlay/align "left" "top"
  	(underlay/align "left" "top"
