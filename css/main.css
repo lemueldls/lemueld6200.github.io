@@ -150,11 +150,15 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 .notebody ul {
-	background: none;
-	padding: 10px;
+	background: transparent;
 	list-style: square;
 	border-left: thick solid darkgray;
     	padding: 0 10%;
+}
+.notebody ul li a {
+	border: none;
+	background: transparent;
+	padding: none;
 }
 .menu {
 	top: 0;
