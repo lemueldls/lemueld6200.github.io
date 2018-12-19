@@ -40,7 +40,9 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  		[(define STAR-SIDE-LENGTH (* 2 radius (sin (/ pi 5))))]
  		(star STAR-SIDE-LENGTH mode color)))
  ```
+ 
  - So, I can just change the "star" function for a "star-radius" function
+ 
  ```scheme
  (star-radius (* 0.5 (* w 0.0616) "solid" "white"))
  ```
