@@ -19,7 +19,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
 
 ## My Process
 
- - My challanges on the [previous](/blog/2018/12/14/weekly-blog-reflection-1.md) blog were creating the stars. In the geomerty of the American Flag
+ - My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.md) were creating the stars. In the geomerty of the American Flag
  ![American Flag Geomerty](/img/flag/AmericanFlagGeomerty.gif)  
  It shows the diameter of the stars, (K) = 0.0616. Now I tried just using the funciton as
  ```scheme
@@ -43,17 +43,37 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  ```
 ## Explaining My Code.
 
--   Choose a significant part of your program (15 lines max) and paste it below. Do not insert your entire program here. _then delete this instruction_
--   Explain each argument in the code section. _then delete this instruction_
--   Tell us how it functions independently and within the whole program _then delete this instruction_
-
-* * *
-
-```
-Insert 10-15 line code section here _then delete this instruction_
-```
-
-* * *
+ - The red stripes for my flag are
+ ```scheme
+ (rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
+ ```
+ showed in the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.md).
+ To make multiple stripes, I used alot of overlay xys and underlay xys, then for the y offset, I used
+ ```scheme
+ (* 2 (* w (/ 1 13)))
+ ```
+ To multiply it by 2 to have the white stripe spacing in between the stipes. So, I used the code,
+ * * *
+ ```scheme
+ (overlay/align "left" "top"
+	(underlay/align "left" "top"
+		(overlay/xy
+			(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w 1/13))
+			(overlay/xy
+				(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w 1/13))
+				(overlay/xy
+					(rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
+					(overlay/xy
+						(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
+						(overlay/xy
+							(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
+							(overlay/xy
+								(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
+								(rectangle l (* w (/ 1 13)) "solid" old-glory-red)))))))
+		US-Union)
+	(rectangle l w "solid" "white"))
+ ```
+ * * *
 
 -   Explain the code you posted by telling us about each argument.
 -   Then tell us how your code section fits into the whole.
