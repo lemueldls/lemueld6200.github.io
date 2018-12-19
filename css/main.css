@@ -55,36 +55,6 @@ code {
     border: thin solid whitesmoke;
     font-family: "Operator", "Monaco", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace;
 }
-pre code {
-	display: table;
-	table-layout: fixed;
-	width: 100%; /* anything but auto, otherwise fixed layout not guaranteed */
-	white-space: pre-wrap;
-}
-pre code::before {
-	counter-reset: linenum;
-}
-pre code span.tr {
-	display: table-row;
-	counter-increment: linenum;
-}
-pre code span.th { /* used for line numbers */
-	display: table-cell;
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-}
-pre code span.th::before {
-	content: counter(linenum);
-	text-align: right;
-	display: block;
-}
-pre code span.th {
-	width: 4em; /* or whatever the desired width of the numbers column is */
-}
-pre code {
-	display: table-cell;
-}
 html {
 	min-height: 100%;
 }
