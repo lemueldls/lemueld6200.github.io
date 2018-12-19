@@ -53,9 +53,9 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  (* 2 (* w (/ 1 13)))
  ```
  To multiply it by 2 to have the white stripe spacing in between the stipes. So, I used the code,
- * * *
- ```scheme
- (overlay/align "left" "top"
+* * *
+```scheme
+(overlay/align "left" "top"
 	(underlay/align "left" "top"
 		(overlay/xy
 			(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w 1/13))
@@ -72,8 +72,8 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
 								(rectangle l (* w (/ 1 13)) "solid" old-glory-red)))))))
 		US-Union)
 	(rectangle l w "solid" "white"))
- ```
- * * *
+```
+* * *
 
 -   Explain the code you posted by telling us about each argument.
 -   Then tell us how your code section fits into the whole.
