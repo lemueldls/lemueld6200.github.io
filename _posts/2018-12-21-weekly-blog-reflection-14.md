@@ -47,7 +47,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  (rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
  ```
  showed in the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.md).
- To make multiple stripes, I used alot of overlay xys and underlay xys, then for the y offset, I used
+ To make multiple stripes, I used alot of overlay/xys and underlay/xys, then for the y offset, I used
  ```scheme
  (* 2 (* w (/ 1 13)))
  ```
