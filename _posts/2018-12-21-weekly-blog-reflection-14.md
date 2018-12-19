@@ -25,7 +25,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  ```scheme
  (star (* 0.5 (* w 0.0616) "solid" "white"))
  ```
- But, the star function takes in the side length, meaning I can't add it like the diameter divied by 2 to get the radius.
+ - But, the star function takes in the side length, meaning I can't add it like the diameter divied by 2 to get the radius.
  But now, thanks to [Mr. Allatta](https://github.com/MrAllatta/), he gave me a function to turn the raduis into the side length of the star.
  ```scheme
  ; star-radius : Number String String -> Image
@@ -37,12 +37,12 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  		[(define STAR-SIDE-LENGTH (* 2 radius (sin (/ pi 5))))]
  		(star STAR-SIDE-LENGTH mode color)))
  ```
- So, I can just change the "star" function for a "star-radius" function
+ - So, I can just change the "star" function for a "star-radius" function
  ```scheme
  (star-radius (* 0.5 (* w 0.0616) "solid" "white"))
  ```
 ## Explaining My Code
- The red stripes for my flag are
+ - The red stripes for my flag are
  ```scheme
  (rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
  ```
@@ -51,7 +51,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  ```scheme
  (* 2 (* w (/ 1 13)))
  ```
- To multiply it by 2 to have the white stripe spacing in between the stipes. So, I used the code,
+ - To multiply it by 2 to have the white stripe spacing in between the stipes. So, I used the code,
  ```scheme
  (overlay/align "left" "top"
  	(underlay/align "left" "top"
@@ -71,7 +71,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  		US-Union)
  	(rectangle l w "solid" "white"))
  ```
- These stripes then go over the US-Union, and the US-Union has all 50 stars, and they _all_ result into this
+ - These stripes then go over the US-Union, and the US-Union has all 50 stars, and they _all_ result into this
 
 ```scheme
 ;; Width of flag:
