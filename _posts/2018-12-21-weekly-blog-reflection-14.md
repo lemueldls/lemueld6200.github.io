@@ -4,11 +4,62 @@
   date: 2018-12-21
 ---
 
-# I DID IT!  
-I did it...  
-I made the American Flag..  
-My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-13) were creating the stars, and, I did it.
+## My Program
 
+-   I designed this flag for the United States of America.
+-   I would expect my grade to be a 4(100%) because my flag is both scalable and geometrically accurate.
+
+My challanges on the [previous](/blog/2018/12/14/weekly-blog-reflection-1.md) blog were creating the stars.
+
+## Current Output
+
+* * *
+![American Flag Final](/img/wescheme/AmericanFlagFinal.png)
+* * *
+
+## My Process
+
+ - My challanges on the [previous](/blog/2018/12/14/weekly-blog-reflection-1.md) blog were creating the stars. In the geomerty of the American Flag
+ ![](/img/flag/AmericanFlagGeomerty.gif)
+ It shows the radius of the stars, (K) = 0.0616. Now I tried just using the funciton as
+ ```scheme
+ 	(star (* w 0.0616) "solid" "white")
+ ```
+ But, the star function takes in the side length, meaning I can't add it like the radius.
+ But now, thanks to [Mr. Allatta]("https://github.com/MrAllatta/"), he gave me a function to turn the raduis into the side length of the star.
+ ```scheme
+ ; star-radius : Number String String -> Image
+ ; converts radius to side length 
+ ; looked up formula for converting between side-length and 
+ ; radius of pentagon
+ (define (star-radius radius mode color)
+   (local
+     [(define STAR-SIDE-LENGTH (* 2 radius (sin (/ pi 5))))]
+     (star STAR-SIDE-LENGTH mode color)))
+ ```
+ - What questions, strategies, help from peers or teacher, or thinking got you to this point? _then delete this instruction_
+
+<!--- Delete this comment and add your writing -->
+
+
+## Explain your code.
+
+-   Choose a significant part of your program (15 lines max) and paste it below. Do not insert your entire program here. _then delete this instruction_
+-   Explain each argument in the code section. _then delete this instruction_
+-   Tell us how it functions independently and within the whole program _then delete this instruction_
+
+* * *
+
+```
+Insert 10-15 line code section here _then delete this instruction_
+```
+
+* * *
+
+-   Explain the code you posted by telling us about each argument.
+-   Then tell us how your code section fits into the whole.
+ 
+<!--- Delete this comment and add your writing -->
 ```scheme
 ;; Width of flag:
 (define w 500)
@@ -152,5 +203,3 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-13)
 	(rectangle l w "solid" "white"))
 	
 ```
-
-![American Flag Final](/img/wescheme/AmericanFlagFinal.png)
