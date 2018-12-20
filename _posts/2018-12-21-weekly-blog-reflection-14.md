@@ -64,6 +64,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  
  To multiply it by 2 to have the white stripe spacing in between the stipes. So, I used the code,
  
+ * * *
  ```scheme
  (overlay/align "left" "top"
  	(underlay/align "left" "top"
@@ -83,6 +84,7 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
  		US-Union)
  	(rectangle l w "solid" "white"))
  ```
+ * * *
  
  - These stripes then go over the US-Union, and the US-Union has all 50 stars, and they _all_ result into this
 
