@@ -108,125 +108,137 @@ My challanges on the [previous blog](/blog/2018/12/14/weekly-blog-reflection-1.m
 (define old-glory-blue (make-color 0 38 100))
 
 ;; US Flag Union:
+
+; Star Shape Functions:
+(define radius (* 0.5 (* w 0.0616)))
+(define x-offset (* w 0.063))
+(define y-offset (* w 0.054))
+
+; Stars:
 (define US-Union
 	(put-image
-		(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* w 0.063) (* w 0.054)
+		(star-radius radius "solid" "white") x-offset y-offset
 		(put-image
-			(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 3 (* w 0.063)) (* w 0.054)
+			(star-radius radius "solid" "white") (* 3 x-offset) y-offset
 			(put-image
-				(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 5 (* w 0.063)) (* w 0.054)
+				(star-radius radius "solid" "white") (* 5 x-offset) y-offset
 				(put-image
-					(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 7 (* w 0.063)) (* w 0.054)
+					(star-radius radius "solid" "white") (* 7 x-offset) y-offset
 					(put-image
-						(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 9 (* w 0.063)) (* w 0.054)
+						(star-radius radius "solid" "white") (* 9 x-offset) y-offset
 						(put-image
-							(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 11 (* w 0.063)) (* w 0.054)
+							(star-radius radius "solid" "white") (* 11 x-offset) y-offset
 							(put-image
-								(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 2 (* w 0.063)) (* 2 (* w 0.054))
+								(star-radius radius "solid" "white") (* 2 x-offset) (* 2 y-offset)
 								(put-image
-									(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 4 (* w 0.063)) (* 2 (* w 0.054))
+									(star-radius radius "solid" "white") (* 4 x-offset) (* 2 y-offset)
 									(put-image
-										(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 6 (* w 0.063)) (* 2 (* w 0.054))
+										(star-radius radius "solid" "white") (* 6 x-offset) (* 2 y-offset)
 										(put-image
-											(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 8 (* w 0.063)) (* 2 (* w 0.054))
+											(star-radius radius "solid" "white") (* 8 x-offset) (* 2 y-offset)
 											(put-image
-												(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 10 (* w 0.063)) (* 2 (* w 0.054))
+												(star-radius radius "solid" "white") (* 10 x-offset) (* 2 y-offset)
 												(put-image
-													(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* w 0.063) (* 3 (* w 0.054))
+													(star-radius radius "solid" "white") x-offset (* 3 y-offset)
 													(put-image
-														(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 3 (* w 0.063)) (* 3 (* w 0.054))
+														(star-radius radius "solid" "white") (* 3 x-offset) (* 3 y-offset)
 														(put-image
-															(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 5 (* w 0.063)) (* 3 (* w 0.054))
+															(star-radius radius "solid" "white") (* 5 x-offset) (* 3 y-offset)
 															(put-image
-																(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 7 (* w 0.063)) (* 3 (* w 0.054))
+																(star-radius radius "solid" "white") (* 7 x-offset) (* 3 y-offset)
 																(put-image
-																	(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 9 (* w 0.063)) (* 3 (* w 0.054))
+																	(star-radius radius "solid" "white") (* 9 x-offset) (* 3 y-offset)
 																	(put-image
-																		(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 11 (* w 0.063)) (* 3 (* w 0.054))
+																		(star-radius radius "solid" "white") (* 11 x-offset) (* 3 y-offset)
 																		(put-image
-																			(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* w 0.063) (* 5 (* w 0.054))
+																			(star-radius radius "solid" "white") x-offset (* 5 y-offset)
 																			(put-image
-																				(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 2 (* w 0.063)) (* 4 (* w 0.054))
+																				(star-radius radius "solid" "white") (* 2 x-offset) (* 4 y-offset)
 																				(put-image
-																					(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 4 (* w 0.063)) (* 4 (* w 0.054))
+																					(star-radius radius "solid" "white") (* 4 x-offset) (* 4 y-offset)
 																					(put-image
-																						(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 6 (* w 0.063)) (* 4 (* w 0.054))
+																						(star-radius radius "solid" "white") (* 6 x-offset) (* 4 y-offset)
 																						(put-image
-																							(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 8 (* w 0.063)) (* 4 (* w 0.054))
+																							(star-radius radius "solid" "white") (* 8 x-offset) (* 4 y-offset)
 																							(put-image
-																								(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 10 (* w 0.063)) (* 4 (* w 0.054))
+																								(star-radius radius "solid" "white") (* 10 x-offset) (* 4 y-offset)
 																								(put-image
-																									(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 3 (* w 0.063)) (* 5 (* w 0.054))
+																									(star-radius radius "solid" "white") (* 3 x-offset) (* 5 y-offset)
 																									(put-image
-																										(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 5 (* w 0.063)) (* 5 (* w 0.054))
+																										(star-radius radius "solid" "white") (* 5 x-offset) (* 5 y-offset)
 																										(put-image
-																											(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 7 (* w 0.063)) (* 5 (* w 0.054))
+																											(star-radius radius "solid" "white") (* 7 x-offset) (* 5 y-offset)
 																											(put-image
-																												(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 9 (* w 0.063)) (* 5 (* w 0.054))
+																												(star-radius radius "solid" "white") (* 9 x-offset) (* 5 y-offset)
 																												(put-image
-																													(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 11 (* w 0.063)) (* 5 (* w 0.054))
+																													(star-radius radius "solid" "white") (* 11 x-offset) (* 5 y-offset)
 																													(put-image
-																														(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 2 (* w 0.063)) (* 6 (* w 0.054))
+																														(star-radius radius "solid" "white") (* 2 x-offset) (* 6 y-offset)
 																														(put-image
-																															(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 4 (* w 0.063)) (* 6 (* w 0.054))
+																															(star-radius radius "solid" "white") (* 4 x-offset) (* 6 y-offset)
 																															(put-image
-																																(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 6 (* w 0.063)) (* 6 (* w 0.054))
+																																(star-radius radius "solid" "white") (* 6 x-offset) (* 6 y-offset)
 																																(put-image
-																																	(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 8 (* w 0.063)) (* 6 (* w 0.054))
+																																	(star-radius radius "solid" "white") (* 8 x-offset) (* 6 y-offset)
 																																	(put-image
-																																		(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 10 (* w 0.063)) (* 6 (* w 0.054))
+																																		(star-radius radius "solid" "white") (* 10 x-offset) (* 6 y-offset)
 																																		(put-image
-																																			(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* w 0.063) (* 7 (* w 0.054))
+																																			(star-radius radius "solid" "white") x-offset (* 7 y-offset)
 																																			(put-image
-																																				(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 3 (* w 0.063)) (* 7 (* w 0.054))
+																																				(star-radius radius "solid" "white") (* 3 x-offset) (* 7 y-offset)
 																																				(put-image
-																																					(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 5 (* w 0.063)) (* 7 (* w 0.054))
+																																					(star-radius radius "solid" "white") (* 5 x-offset) (* 7 y-offset)
 																																					(put-image
-																																						(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 7 (* w 0.063)) (* 7 (* w 0.054))
+																																						(star-radius radius "solid" "white") (* 7 x-offset) (* 7 y-offset)
 																																						(put-image
-																																							(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 9 (* w 0.063)) (* 7 (* w 0.054))
+																																							(star-radius radius "solid" "white") (* 9 x-offset) (* 7 y-offset)
 																																							(put-image
-																																								(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 11 (* w 0.063)) (* 7 (* w 0.054))
+																																								(star-radius radius "solid" "white") (* 11 x-offset) (* 7 y-offset)
 																																								(put-image
-																																									(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 2 (* w 0.063)) (* 8 (* w 0.054))
+																																									(star-radius radius "solid" "white") (* 2 x-offset) (* 8 y-offset)
 																																									(put-image
-																																										(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 4 (* w 0.063)) (* 8 (* w 0.054))
+																																										(star-radius radius "solid" "white") (* 4 x-offset) (* 8 y-offset)
 																																										(put-image
-																																											(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 6 (* w 0.063)) (* 8 (* w 0.054))
+																																											(star-radius radius "solid" "white") (* 6 x-offset) (* 8 y-offset)
 																																											(put-image
-																																												(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 8 (* w 0.063)) (* 8 (* w 0.054))
+																																												(star-radius radius "solid" "white") (* 8 x-offset) (* 8 y-offset)
 																																												(put-image
-																																													(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 10 (* w 0.063)) (* 8 (* w 0.054))
+																																													(star-radius radius "solid" "white") (* 10 x-offset) (* 8 y-offset)
 																																													(put-image
-																																														(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* w 0.063) (* 9 (* w 0.054))
+																																														(star-radius radius "solid" "white") x-offset (* 9 y-offset)
 																																														(put-image
-																																															(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 3 (* w 0.063)) (* 9 (* w 0.054))
+																																															(star-radius radius "solid" "white") (* 3 x-offset) (* 9 y-offset)
 																																															(put-image
-																																																(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 5 (* w 0.063)) (* 9 (* w 0.054))
+																																																(star-radius radius "solid" "white") (* 5 x-offset) (* 9 y-offset)
 																																																(put-image
-																																																	(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 7 (* w 0.063)) (* 9 (* w 0.054))
+																																																	(star-radius radius "solid" "white") (* 7 x-offset) (* 9 y-offset)
 																																																	(put-image
-																																																		(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 9 (* w 0.063)) (* 9 (* w 0.054))
+																																																		(star-radius radius "solid" "white") (* 9 x-offset) (* 9 y-offset)
 																																																		(put-image
-																																																			(star-radius (* 0.5 (* w 0.0616)) "solid" "white") (* 11 (* w 0.063)) (* 9 (* w 0.054))
+																																																			(star-radius radius "solid" "white") (* 11 x-offset) (* 9 y-offset)
 																																																			(rectangle (* w 0.76) (* w (/ 7 13)) "solid" old-glory-blue))))))))))))))))))))))))))))))))))))))))))))))))))))
 
 ;; US Flag Base:
+
+; Stripe functions
+(define stripe-height (* w (/ 1 13)))
+
+; Stripes
 (overlay/align "left" "top"
 	(underlay/align "left" "top"
 		(overlay/xy
-			(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w 1/13))
+			(rectangle l stripe-height "solid" old-glory-red) 0 (* 2 stripe-height)
 			(overlay/xy
-					(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w 1/13))
+					(rectangle l stripe-height "solid" old-glory-red) 0 (* 2 stripe-height)
 					(overlay/xy
-							(rectangle l (* w 1/13) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
+							(rectangle l stripe-height "solid" old-glory-red) 0 (* 2 stripe-height)
 							(overlay/xy
-									(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
+									(rectangle l stripe-height "solid" old-glory-red) 0 (* 2 stripe-height)
 									(overlay/xy
-											(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
+											(rectangle l stripe-height "solid" old-glory-red) 0 (* 2 stripe-height)
 											(overlay/xy
-													(rectangle l (* w (/ 1 13)) "solid" old-glory-red) 0 (* 2 (* w (/ 1 13)))
-													(rectangle l (* w (/ 1 13)) "solid" old-glory-red)))))))
+													(rectangle l stripe-height "solid" old-glory-red) 0 (* 2 stripe-height)
+													(rectangle l stripe-height "solid" old-glory-red)))))))
 		US-Union)
 	(rectangle l w "solid" "white"))
 	
